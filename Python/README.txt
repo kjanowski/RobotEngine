@@ -1,0 +1,1 @@
+The Python implementation is intended for use with robots such as Aisoy or SoftBanks NAO.

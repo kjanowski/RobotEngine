@@ -1,0 +1,62 @@
+--------------------------------------------------------------------
+LED sample
+--------------------------------------------------------------------
+
+<command task="N6::Sample_LED::t1::u0" type="speech" text="Dann wird es \\book=0 ganz \\book=1 bunt ."/>
+<status task="N6::Sample_LED::t1::u0" status="started"/>
+<status task="N6::Sample_LED::t1::u0" status="bookmark" id="0"/>
+	<command task="N6::Sample_LED::t1::u0::b0" type="led" color="yellow" side="left"/>
+	<status task="N6::Sample_LED::t1::u0::b0" status="finished"/>
+<status task="N6::Sample_LED::t1::u0" status="bookmark" id="1"/>
+	<command task="N6::Sample_LED::t1::u0::b1" type="led" color="violet" side="right"/>
+	<status task="N6::Sample_LED::t1::u0::b1" status="finished"/>
+<status task="N6::Sample_LED::t1::u0" status="finished"/>
+
+
+<command task="N6::Sample_LED::t2::u0" type="speech" text="Und dann sind beide Lampen \\book=0 aus ."/>
+<status task="N6::Sample_LED::t2::u0" status="started"/>
+<status task="N6::Sample_LED::t2::u0" status="bookmark" id="0"/>
+	<command task="N6::Sample_LED::t2::u0::b0" type="led" color="off" side="both"/>
+	<status task="N6::Sample_LED::t2::u0::b0" status="finished"/>
+<status task="N6::Sample_LED::t2::u0" status="finished"/>
+
+
+--------------------------------------------------------------------
+animation sample
+--------------------------------------------------------------------
+
+<command task="N6::Sample_Anim::t0::u0" type="speech" text="\\book=0 Jetzt guck ich mal fröhlich ."/>
+<status task="N6::Sample_Anim::t0::u0" status="started"/>
+<status task="N6::Sample_Anim::t0::u0" status="bookmark" id="0"/>
+	<command task="N6::Sample_Anim::t0::u0::b0" type="anim" name="Emotions/happy"/>
+	<status task="N6::Sample_Anim::t0::u0::b0" status="started"/>
+<status task="N6::Sample_Anim::t0::u0" status="finished"/>
+
+<command task="N6::Sample_Anim::t1::u0" type="speech" text="Und \\book=0 jetzt traurig ."/>
+<status task="N6::Sample_Anim::t1::u0" status="started"/>
+<status task="N6::Sample_Anim::t1::u0" status="bookmark" id="0"/>
+		<command task="N6::Sample_Anim::t1::u0::b0" type="anim" name="Emotions/sad"/>
+	<status task="N6::Sample_Anim::t0::u0::b0" status="finished"/>
+		<status task="N6::Sample_Anim::t1::u0::b0" status="started"/>
+<status task="N6::Sample_Anim::t1::u0" status="finished"/>
+
+<command task="N6::Sample_Anim::t2::u0" type="speech" text="Und \\book=0 jetzt neutral ."/>
+<status task="N6::Sample_Anim::t2::u0" status="started"/>
+<status task="N6::Sample_Anim::t2::u0" status="bookmark" id="0"/>
+	<command task="N6::Sample_Anim::t2::u0::b0" type="anim" name="Emotions/neutral"/>
+		<status task="N6::Sample_Anim::t1::u0::b0" status="finished"/>
+	<status task="N6::Sample_Anim::t2::u0::b0" status="started"/>
+<status task="N6::Sample_Anim::t2::u0" status="finished"/>
+	<status task="N6::Sample_Anim::t2::u0::b0" status="finished"/>
+<status task="unknown" status="bookmark" id=""/>
+
+
+--------------------------------------------------------------------
+invalid parameter sample
+--------------------------------------------------------------------
+
+<command task="N2::Sample_Reset::t0::u0::b0" type="anim" name="Emotions/smoothneutral"/>
+<status task="N2::Sample_Reset::t0::u0" status="finished"/>
+	[ReetiV1Engine] file not found: /home/reeti/reetiDocuments/Sequences/Emotions/smoothneutral.rmdl
+<status task="N2::Sample_Reset::t0::u0::b0" status="rejected" reason="file not found"/>
+

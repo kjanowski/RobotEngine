@@ -1,2 +1,2 @@
 # RobotEngine
-A generic message protocol for connecting arbitrary agents to arbitrary control applications.
+A generic messaging framework for connecting arbitrary virtual or robotic agents to arbitrary control applications.

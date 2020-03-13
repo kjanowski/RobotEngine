@@ -1,0 +1,188 @@
+Version 3.0.0
+- date: 13th March 2020
+- package renamed to de.kmj.robots
+- StatusMessage: fixed internal variable naming
+
+
+
+Version 2.6.0
+- date: 21st October 2019
+- MessageServer:
+    - fixed bug with illegal client addresses
+    - cleaned up logging
+- Message
+    - cleaned up logging
+
+Version 2.5.2
+- date: 17th October 2019
+- DefaultControlApp:
+    - updated default commands
+
+Version 2.5.1
+- date: 8th July 2019
+- DefaultControlApp:
+    - added default commands for "pose" and "facs"
+    - added icon for "facs"
+
+Version 2.5.0
+- date: 14th June 2019
+- DefaultControlApp:
+    - added automation threads
+- MessageServer:
+    - fixed bug in connection with multiple clients: now sends StatusMessage to the client associated with that taskID
+
+Version 2.4.2
+- date: 6th June 2019
+- DefaultControlApp:
+    - added "clear" button for status message list
+    - fixed addition and deletion of CommandPool entries
+    - CommandPool now sends selected command when "Enter" is typed
+    - re-named "edit" button to "copy"
+
+Version 2.4.1
+- date: 26th October 2018
+- DefaultControlApp: improved sending
+    - Command Editor: message is sent when "Enter" is pressed on any input text field
+    - Command List: message is sent on double click
+    - avoid adding duplicate commands within the selected category
+
+Version 2.4.0
+- date: 24th October 2018
+- DefaultControlApp: added configuration file
+    - added ability to store and load connection presets
+    - configurable base directory for command list
+
+Version 2.3.1
+- date: 28th September 2018
+- DefaultControlApp
+    - re-worked editor for custom command type
+
+Version 2.3.0
+- date: 7th September 2018
+- DefaultControlApp
+    - command list can be saved and loaded (XML)
+    - categories
+        - can be created with custom names
+        - new commands are saved in the selected category
+    - tree view displays commands according to the type
+        - matching icons
+        - relevant parameters
+
+Version 2.2.1
+- date: 13th June 2018
+- bugfix in DefaultControlApp: LED commands now have the correct type
+
+Version 2.2.0
+- date: 28th June 2018
+- FIFOSpeechScheduler: added "started" status notification
+- DefaultControlApplication: changed all parameter inputs to string
+
+Version 2.1.2
+- date: 4th May 2018
+- DefaultControlApplication: added list of command messages sent during this session
+- SpeechTask: added flag for lip sync
+
+Version 2.1.1
+- date: 23rd January 2018
+- CommandEditorPanel: updated parameters for current "setVoice (MIDI)" message
+- StatusDisplayPanel: fixed timestamp bug
+
+Version 2.1.0
+- date: 10th January 2018
+- CommandMessage: improved compatibility with org.w3c.dom package
+	- new constructor from Node
+	- new method for converting CommandMessage to Document
+	- new method for creating Element in a given Document
+	- String output created from Element to ensure proper formatting
+- CommandEditorPanel: fixed bug with duplicated parameters
+
+Version 2.0.2
+- date: 21st December 2017
+- Control GUI/CommandEditorPanel:
+	- can now parse and edit a given CommandMessage
+	- can now assign a requested task ID when returning the finished message
+	- text of the "send command" button can now be changed
+
+Version 2.0.1
+- date: 14th November 2017
+- small fix to exception handling in default command execution
+
+Version 2.0.0
+- date: 08th November 2017
+- added DefaultControlApp with GUI
+	- connects to any remote MessageServer
+	- provides templates for known CommandMessage types and their parameters
+	- sends CommandMessages to the RobotEngine and displays all associated StatusMessages
+- messaging:
+	- added new overloads for rejectCommand()
+		- additional parameter: String reason
+		- only task ID required, usage of full CommandMessage is deprecated
+	- MessageServer:
+		- alternative constructor for pre-parsed integer values
+		- minor correction to debug output
+	- MessageClient:
+		- added method isConnected()
+		- alternative constructor for pre-parsed integer values
+		- minor correction to debug output
+- logging:
+	- now uses the Java logging API
+	- added methods for configuring the global/root Logger
+	- added BasicLogFormatter to package de.hcm.robots.util
+		- output format: [<short class name>] <log level>: <log message>
+	
+Version 1.2.3
+- date: 24th October 2017
+- minor changes to MessageServer and MessageClient:
+    - added constructors for pre-parsed integer parameters
+    - fixed incorrect debug output for parsing errors
+
+Version 1.2.2
+- date: 22th September 2017
+- util.FIFOSpeechScheduler: added option to disable debug output
+
+Version 1.2.1
+- date: 08th June 2017
+- added MessageClient
+
+Version 1.2.0
+- date: 11th May 2016
+- added util.FIFOSpeechScheduler as a generic base class for the SpeechWrappers
+
+Version 1.1.4
+- date: 29th April 2016
+- added util.SpeechTask
+
+Version 1.1.3
+- date: 30th March 2016
+- RobotEngine:
+	- made start() and stop() public
+	- minor fix in debug message: replaced "application" with "engine"
+- javadoc comments
+
+Version 1.1.2
+- date: 17th March 2016
+- MessageServer:
+    - now accepts valid commands from any IP/port and sends feedback to the last known client address
+    - moved to sub-package "messaging"
+    - now requires an instance of "CommandMessageHandler" instead of "RobotEngineRemoteApplication"
+
+Version 1.1.1
+- date: 9th March 2016
+- renamed MessageSocket to MessageServer
+- now forces the socket to close when the application shuts down
+
+Version 1.1.0
+- date: 4th March 2016
+- restructured configuration:
+	- start arguments reduced to application config path
+	- application config: engine class, engine config path and network settings
+	- engine config: robot-specific parameters
+- cleaned up enforced functionality:
+	- made executeCommand(...) abstract
+	- deleted helper methods
+- moved PseudoBot to separate project
+
+Version 1.0.x
+- date: 24th February 2016
+- first usable implementation
+- hardcoded network configuration

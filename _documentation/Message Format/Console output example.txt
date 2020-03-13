@@ -1,0 +1,185 @@
+[MessageServer] received packet from address /192.168.1.63:1251
+[MessageSocketThread] received message: '<command task="N2::Sample_Reset::t0::u0" type="speech" text="\\book=0 "/>'
+[MessageSocketThread] waiting for message...
+[MessageSocketThread] sending '<status task="N2::Sample_Reset::t0::u0" status="started"/>'
+[MessageSocketThread] message sent.
+[MessageSocketThread] sending '<status task="N2::Sample_Reset::t0::u0" status="finished"/>'
+[MessageSocketThread] message sent.
+[MessageSocketThread] sending '<status task="unknown" status="finished"/>'
+[MessageSocketThread] message sent.
+[MessageServer] received packet from address /192.168.1.63:1251
+[MessageSocketThread] received message: '<command task="N2::Sample_Reset::t0::u0" type="speech" text="\\book=0 "/>'
+[MessageSocketThread] waiting for message...
+[MessageSocketThread] sending '<status task="N2::Sample_Reset::t0::u0" status="started"/>'
+[MessageSocketThread] message sent.
+[MessageSocketThread] sending '<status task="N2::Sample_Reset::t0::u0" status="bookmark" id="0"/>'
+[MessageSocketThread] message sent.
+[MessageServer] received packet from address /192.168.1.63:1251
+[MessageSocketThread] received message: '<command task="N2::Sample_Reset::t0::u0::b0" type="anim" name="Emotions/smoothneutral"/>'
+[ReetiV1Engine] file not found: /home/reeti/reetiDocuments/Sequences/Emotions/smoothneutral.rmdl
+[MessageSocketThread] sending '<status task="N2::Sample_Reset::t0::u0::b0" status="rejected" reason="file not found"/>'
+[MessageSocketThread] message sent.
+[MessageSocketThread] waiting for message...
+[MessageSocketThread] sending '<status task="N2::Sample_Reset::t0::u0" status="finished"/>'
+[MessageSocketThread] message sent.
+[MessageServer] received packet from address /192.168.1.63:1251
+[MessageSocketThread] received message: '<command task="N6::Sample_Basic::t0::u0" type="speech" text="Dies ist eine ganz einfache Szene ."/>'
+[MessageSocketThread] waiting for message...
+[MessageSocketThread] sending '<status task="N6::Sample_Basic::t0::u0" status="started"/>'
+[MessageSocketThread] message sent.
+[MessageSocketThread] sending '<status task="N6::Sample_Basic::t0::u0" status="finished"/>'
+[MessageSocketThread] message sent.
+[MessageServer] received packet from address /192.168.1.63:1251
+[MessageSocketThread] received message: '<command task="N6::Sample_Basic::t1::u0" type="speech" text="Sie enthält nur Sprache und Mundbewegungen ."/>'
+[MessageSocketThread] waiting for message...
+[MessageSocketThread] sending '<status task="N6::Sample_Basic::t1::u0" status="started"/>'
+[MessageSocketThread] message sent.
+[MessageSocketThread] sending '<status task="N6::Sample_Basic::t1::u0" status="finished"/>'
+[MessageSocketThread] message sent.
+[MessageServer] received packet from address /192.168.1.63:1251
+[MessageSocketThread] received message: '<command task="N6::Sample_LED::t0::u0" type="speech" text="In dieser hier wechsele ich die Farbe von \\book=0 rot zu \\book=1 blau ."/>'
+[MessageSocketThread] waiting for message...
+[MessageSocketThread] sending '<status task="N6::Sample_LED::t0::u0" status="started"/>'
+[MessageSocketThread] message sent.
+[MessageSocketThread] sending '<status task="N6::Sample_LED::t0::u0" status="bookmark" id="0"/>'
+[MessageSocketThread] message sent.
+[MessageServer] received packet from address /192.168.1.63:1251
+[MessageSocketThread] received message: '<command task="N6::Sample_LED::t0::u0::b0" type="led" color="red"/>'
+[ReetiV1Engine] color: (1.0, 0.0, 0.0)
+[MessageSocketThread] sending '<status task="N6::Sample_LED::t0::u0::b0" status="finished"/>'
+[MessageSocketThread] message sent.
+[MessageSocketThread] waiting for message...
+[MessageSocketThread] sending '<status task="N6::Sample_LED::t0::u0" status="bookmark" id="1"/>'
+[MessageSocketThread] message sent.
+[MessageServer] received packet from address /192.168.1.63:1251
+[MessageSocketThread] received message: '<command task="N6::Sample_LED::t0::u0::b1" type="led" color="blue"/>'
+[ReetiV1Engine] color: (0.0, 0.0, 1.0)
+[MessageSocketThread] sending '<status task="N6::Sample_LED::t0::u0::b1" status="finished"/>'
+[MessageSocketThread] message sent.
+[MessageSocketThread] waiting for message...
+[MessageSocketThread] sending '<status task="N6::Sample_LED::t0::u0" status="finished"/>'
+[MessageSocketThread] message sent.
+[MessageServer] received packet from address /192.168.1.63:1251
+[MessageSocketThread] received message: '<command task="N6::Sample_LED::t1::u0" type="speech" text="Dann wird es \\book=0 ganz \\book=1 bunt ."/>'
+[MessageSocketThread] waiting for message...
+[MessageSocketThread] sending '<status task="N6::Sample_LED::t1::u0" status="started"/>'
+[MessageSocketThread] message sent.
+[MessageSocketThread] sending '<status task="N6::Sample_LED::t1::u0" status="bookmark" id="0"/>'
+[MessageSocketThread] message sent.
+[MessageServer] received packet from address /192.168.1.63:1251
+[MessageSocketThread] received message: '<command task="N6::Sample_LED::t1::u0::b0" type="led" color="yellow" side="left"/>'
+[ReetiV1Engine] color: (1.0, 1.0, 0.0)
+[MessageSocketThread] sending '<status task="N6::Sample_LED::t1::u0::b0" status="finished"/>'
+[MessageSocketThread] message sent.
+[MessageSocketThread] waiting for message...
+[MessageSocketThread] sending '<status task="N6::Sample_LED::t1::u0" status="bookmark" id="1"/>'
+[MessageSocketThread] message sent.
+[MessageServer] received packet from address /192.168.1.63:1251
+[MessageSocketThread] received message: '<command task="N6::Sample_LED::t1::u0::b1" type="led" color="violet" side="right"/>'
+[ReetiV1Engine] color: (0.9333333373069763, 0.5098039507865906, 0.9333333373069763)
+[MessageSocketThread] sending '<status task="N6::Sample_LED::t1::u0::b1" status="finished"/>'
+[MessageSocketThread] message sent.
+[MessageSocketThread] waiting for message...
+[MessageSocketThread] sending '<status task="N6::Sample_LED::t1::u0" status="finished"/>'
+[MessageSocketThread] message sent.
+[MessageServer] received packet from address /192.168.1.63:1251
+[MessageSocketThread] received message: '<command task="N6::Sample_LED::t2::u0" type="speech" text="Und dann sind beide Lampen \\book=0 aus ."/>'
+[MessageSocketThread] waiting for message...
+[MessageSocketThread] sending '<status task="N6::Sample_LED::t2::u0" status="started"/>'
+[MessageSocketThread] message sent.
+[MessageSocketThread] sending '<status task="N6::Sample_LED::t2::u0" status="bookmark" id="0"/>'
+[MessageSocketThread] message sent.
+[MessageServer] received packet from address /192.168.1.63:1251
+[MessageSocketThread] received message: '<command task="N6::Sample_LED::t2::u0::b0" type="led" color="off" side="both"/>'
+[MessageSocketThread] sending '<status task="N6::Sample_LED::t2::u0::b0" status="finished"/>'
+[MessageSocketThread] message sent.
+[MessageSocketThread] waiting for message...
+[MessageSocketThread] sending '<status task="N6::Sample_LED::t2::u0" status="finished"/>'
+[MessageSocketThread] message sent.
+[MessageServer] received packet from address /192.168.1.63:1251
+[MessageSocketThread] received message: '<command task="N6::Sample_Anim::t0::u0" type="speech" text="\\book=0 Jetzt guck ich mal fröhlich ."/>'
+[MessageSocketThread] waiting for message...
+[MessageSocketThread] sending '<status task="N6::Sample_Anim::t0::u0" status="started"/>'
+[MessageSocketThread] message sent.
+[MessageSocketThread] sending '<status task="N6::Sample_Anim::t0::u0" status="bookmark" id="0"/>'
+[MessageSocketThread] message sent.
+[MessageServer] received packet from address /192.168.1.63:1251
+[MessageSocketThread] received message: '<command task="N6::Sample_Anim::t0::u0::b0" type="anim" name="Emotions/happy"/>'
+[MessageSocketThread] waiting for message...
+[ReetiV1 Animation] playing: true
+[MessageSocketThread] sending '<status task="N6::Sample_Anim::t0::u0::b0" status="started"/>'
+[MessageSocketThread] message sent.
+[ReetiV1 Animation] waiting for animation end
+[MessageSocketThread] sending '<status task="N6::Sample_Anim::t0::u0" status="finished"/>'
+[MessageSocketThread] message sent.
+[MessageServer] received packet from address /192.168.1.63:1251
+[MessageSocketThread] received message: '<command task="N6::Sample_Anim::t1::u0" type="speech" text="Und \\book=0 jetzt traurig ."/>'
+[MessageSocketThread] waiting for message...
+[MessageSocketThread] sending '<status task="N6::Sample_Anim::t1::u0" status="started"/>'
+[MessageSocketThread] message sent.
+[MessageSocketThread] sending '<status task="N6::Sample_Anim::t1::u0" status="bookmark" id="0"/>'
+[MessageSocketThread] message sent.
+[MessageServer] received packet from address /192.168.1.63:1251
+[MessageSocketThread] received message: '<command task="N6::Sample_Anim::t1::u0::b0" type="anim" name="Emotions/sad"/>'
+[MessageSocketThread] waiting for message...
+[ReetiV1 Animation] playing: false
+[MessageSocketThread] sending '<status task="N6::Sample_Anim::t0::u0::b0" status="finished"/>'
+[MessageSocketThread] message sent.
+[ReetiV1 Animation] playing: true
+[ReetiV1 Animation] waiting for animation end
+[MessageSocketThread] sending '<status task="N6::Sample_Anim::t1::u0::b0" status="started"/>'
+[MessageSocketThread] message sent.
+[MessageSocketThread] sending '<status task="N6::Sample_Anim::t1::u0" status="finished"/>'
+[MessageSocketThread] message sent.
+[MessageServer] received packet from address /192.168.1.63:1251
+[MessageSocketThread] received message: '<command task="N6::Sample_Anim::t2::u0" type="speech" text="Und \\book=0 jetzt neutral ."/>'
+[MessageSocketThread] waiting for message...
+[MessageSocketThread] sending '<status task="N6::Sample_Anim::t2::u0" status="started"/>'
+[MessageSocketThread] message sent.
+[MessageSocketThread] sending '<status task="N6::Sample_Anim::t2::u0" status="bookmark" id="0"/>'
+[MessageSocketThread] message sent.
+[MessageServer] received packet from address /192.168.1.63:1251
+[MessageSocketThread] received message: '<command task="N6::Sample_Anim::t2::u0::b0" type="anim" name="Emotions/neutral"/>'
+[MessageSocketThread] waiting for message...
+[ReetiV1 Animation] playing: false
+[MessageSocketThread] sending '<status task="N6::Sample_Anim::t1::u0::b0" status="finished"/>'
+[MessageSocketThread] message sent.
+[ReetiV1 Animation] playing: true
+[ReetiV1 Animation] waiting for animation end
+[MessageSocketThread] sending '<status task="N6::Sample_Anim::t2::u0::b0" status="started"/>'
+[MessageSocketThread] message sent.
+[MessageSocketThread] sending '<status task="N6::Sample_Anim::t2::u0" status="finished"/>'
+[MessageSocketThread] message sent.
+[MessageServer] received packet from address /192.168.1.63:1251
+[MessageSocketThread] received message: '<command task="N3::Sample_TTSVolume::t0�ndern ."/>'speech" text="\\volume=80  Die Lautstärke meiner Stimme lässt sich ä
+[MessageSocketThread] waiting for message...
+[MessageSocketThread] sending '<status task="N3::Sample_TTSVolume::t0::u0" status="started"/>'
+[MessageSocketThread] message sent.
+[ReetiV1 Animation] playing: false
+[MessageSocketThread] sending '<status task="N6::Sample_Anim::t2::u0::b0" status="finished"/>'
+[MessageSocketThread] message sent.
+[MessageSocketThread] sending '<status task="N3::Sample_TTSVolume::t0::u0" status="finished"/>'
+[MessageSocketThread] message sent.
+[MessageServer] received packet from address /192.168.1.63:1251
+[MessageSocketThread] received message: '<command task="N3::Sample_TTSVolume::t1::u0" type="speech" text="\\volume=40  Falls ich mal etwas leiser sein soll ."/>'
+[MessageSocketThread] waiting for message...
+[MessageSocketThread] sending '<status task="N3::Sample_TTSVolume::t1::u0" status="started"/>'
+[MessageSocketThread] message sent.
+[MessageSocketThread] sending '<status task="N3::Sample_TTSVolume::t1::u0" status="finished"/>'
+[MessageSocketThread] message sent.
+[MessageServer] received packet from address /192.168.1.63:1251
+[MessageSocketThread] received message: '<command task="N3::Sample_TTSVolume::t2::u0" type="speech" text="\\volume=20 \\whisper=on  Oder sogar flüstern muss ."/>'
+[MessageSocketThread] waiting for message...
+[MessageSocketThread] sending '<status task="N3::Sample_TTSVolume::t2::u0" status="started"/>'
+[MessageSocketThread] message sent.
+[MessageSocketThread] sending '<status task="N3::Sample_TTSVolume::t2::u0" status="finished"/>'
+[MessageSocketThread] message sent.
+[MessageServer] received packet from address /192.168.1.63:1251
+[MessageSocketThread] received message: '<command task="N3::Sample_TTSSpeed::t0::u0" type="speech" text="Mit anderen Parametern kann man zwischen \\speed=0  langsamer Geschwindigkeit \\speed=100  und schneller Geschwindigkeit \\speed=reset  wechseln ."/>'
+[MessageSocketThread] waiting for message...
+[MessageSocketThread] sending '<status task="N3::Sample_TTSSpeed::t0::u0" status="started"/>'
+[MessageSocketThread] message sent.
+[MessageSocketThread] sending '<status task="N3::Sample_TTSSpeed::t0::u0" status="finished"/>'
+[MessageSocketThread] message sent.
+
+

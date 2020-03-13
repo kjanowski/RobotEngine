@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<category name="all">
+<command name="fullbody/LeanRight" task="task37" type="anim"/>
+<category name="speech">
+<command lipSync="true" task="task0" text="The sun is shining and the Danube steamboat cruise captain gets a sunburn." type="speech"/>
+<command lipSync="true" task="task1" text="He should have taken sun block with him." type="speech"/>
+<command lipSync="true" task="task2" text="Silly fellow." type="speech"/>
+<category name="German">
+<command lipSync="true" task="task16" text="Draußen scheint die Sonne, und der Donaudampfschifffahrtskapitän kriegt Sonnenbrand." type="speech"/>
+<command lipSync="true" task="task17" text="Hätte er mal lieber Sonnencreme mitgenommen." type="speech"/>
+<command lipSync="true" task="task18" text="So ein Dummerchen." type="speech"/>
+</category>
+</category>
+<category name="Nao">
+<command speed="1.0" task="task3" type="gaze" x="0.3" y="0.1" z="-0.1"/>
+<command speed="1.0" task="task4" type="gaze" x="0.3" y="-0.1" z="0.1"/>
+<command angle="-90.0" task="task5" type="move" x="0.3" y="-0.2"/>
+<command task="task6" type="stopMove"/>
+<command task="task7" type="point" x="0.3" y="0.1" z="-0.2"/>
+<command task="task8" type="point" x="0.3" y="-0.2" z="-0.1"/>
+<command blue="1.0" green="0.1" id="LeftFaceLeds" red="0.7" task="task11" type="led"/>
+<command blue="0.0" green="0.7" id="RightFaceLeds" red="1.0" task="task12" type="led"/>
+<command language="English" task="task14" type="setVoice" volume="1.0"/>
+<command language="German" task="task15" type="setVoice" volume="1.0"/>
+<category name="Animations">
+<category name="Eyes">
+<command name="ActionUnits/Blink" task="task20" type="anim"/>
+<command name="ActionUnits/Blink_Left" task="task21" type="anim"/>
+<command name="ActionUnits/Blink_Right" task="task22" type="anim"/>
+<command name="ActionUnits/Wink_Left" task="task23" type="anim"/>
+<command name="ActionUnits/Wink_Right" task="task24" type="anim"/>
+</category>
+<category name="Head">
+<command name="HeadGestures/HeadNod" task="task25" type="anim"/>
+<command name="HeadGestures/HeadShake" task="task26" type="anim"/>
+<command name="Defaults/DefaultNeck" task="task27" type="anim"/>
+</category>
+<category name="Body">
+<command name="Defaults/Crouch" task="task28" type="anim"/>
+<command name="Defaults/Stand" task="task29" type="anim"/>
+<command name="fullbody/Greet" task="task31" type="anim"/>
+<command name="fullbody/Bow" task="task32" type="anim"/>
+<command name="fullbody/HandsInFront" task="task33" type="anim"/>
+<command name="fullbody/HandsOverHead" task="task34" type="anim"/>
+<command name="fullbody/TaiChi" task="task39" type="anim"/>
+<command name="Defaults/Relax" task="task30" type="anim"/>
+</category>
+</category>
+</category>
+</category>

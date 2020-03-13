@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Automations>
+<Automation maxDelay="1000" minDelay="1000" name="blink" port="2014" randomize="false">
+<command name="Eyes/blink" task="task0" type="anim"/>
+</Automation>
+</Automations>

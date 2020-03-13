@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<playlist>
+<Automations>
+<Automation maxDelay="5000" minDelay="500" name="sick" randomize="true">
+<command lipSync="true" task="task0" text="Hatschi!" type="speech"/>
+<command lipSync="true" task="task1" text="Schnüff." type="speech"/>
+<command lipSync="true" task="task2" text="Schnief." type="speech"/>
+<command lipSync="true" task="task3" text="HAAA-TSCHI!" type="speech"/>
+</Automation>
+</Automations>
+</playlist>
