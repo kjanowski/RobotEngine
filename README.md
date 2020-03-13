@@ -14,6 +14,6 @@ This separation makes it easy to re-use the application logic with a robot from 
 
 # Current Implementation Status
 
-* The 'Java' implementation is the primary, most advanced version. This one also includes a generic control application that connects to an external RobotEngine application via UDP.
-* The 'Python' implementation contains the core classes for parsing and handling the two message types.
-* The 'C#' implementation contains classes for the two message types, but
+* The *Java* implementation is the primary, most advanced version. This one also includes a generic control application that connects to an external RobotEngine application via UDP.
+* The *Python* implementation contains the core classes for parsing and handling the two message types.
+* The *C#* implementation contains classes for the two message types, but
