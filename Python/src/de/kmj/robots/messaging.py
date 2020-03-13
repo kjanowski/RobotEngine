@@ -6,7 +6,7 @@
 import socket
 import threading
 import sys
-from elementtree import ElementTree as ET
+from xml.etree import ElementTree as ET
 
 
 #########################################################################
