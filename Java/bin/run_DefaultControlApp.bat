@@ -13,9 +13,9 @@ echo.-------------------------------------------------------
 @echo on
 
 
-java -cp dist de.kmj.robots.controlApp.DefaultControlApplication res\ControlApp.config
+java -cp dist/RobotEngine.jar de.kmj.robots.controlApp.DefaultControlApplication res\ControlApp.config
 ENDLOCAL
 
 :: uncomment for debugging purposes
-::PAUSE
+PAUSE
 

@@ -1,3 +1,7 @@
 /Java/doxygen/run_doxygen_local.bat
 *.pyc
 /Java/documentation/API
+/Java/build/
+/Java/dist/
+/Java/dist/RobotEngine.jar
+/Java/dist/README.TXT
