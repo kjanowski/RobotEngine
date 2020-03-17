@@ -169,7 +169,7 @@ public class Category {
         
         for(CommandMessage cmd: mCommands)
         {
-            Element cmdElem = cmd.createElement(doc);
+            Element cmdElem = cmd.createMessageElement(doc);
             categoryElem.appendChild(cmdElem);
         }
         

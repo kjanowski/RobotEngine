@@ -1,3 +1,9 @@
+Version 3.0.1
+- date: 17th March 2020
+- added class XMLMessage
+	- abstract parent class for redundant parts in CommandMessage and StatusMessage
+	- toString() now creates a proper Document instead of manually formatting plain text
+
 Version 3.0.0
 - date: 13th March 2020
 - package renamed to de.kmj.robots

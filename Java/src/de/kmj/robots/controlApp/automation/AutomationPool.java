@@ -92,7 +92,7 @@ public class AutomationPool {
                 ArrayList<CommandMessage> cmds = thread.getCommands();
                 for(int i=0; i<cmds.size(); i++)
                 {
-                    Element cmdElem = cmds.get(i).createElement(xml);
+                    Element cmdElem = cmds.get(i).createMessageElement(xml);
                     autoElem.appendChild(cmdElem);
                 }
                 

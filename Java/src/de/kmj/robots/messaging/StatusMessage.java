@@ -1,11 +1,13 @@
 package de.kmj.robots.messaging;
 
+import static de.kmj.robots.messaging.XMLMessage.cLogger;
 import java.util.Map.Entry;
 import java.util.Set;
 import java.util.TreeMap;
 
 import java.io.ByteArrayInputStream;
 import java.io.IOException;
+import java.io.StringWriter;
 import java.io.UnsupportedEncodingException;
 import java.util.logging.Level;
 import java.util.logging.Logger;
@@ -13,10 +15,19 @@ import java.util.logging.Logger;
 import javax.xml.parsers.DocumentBuilder;
 import javax.xml.parsers.DocumentBuilderFactory;
 import javax.xml.parsers.ParserConfigurationException;
+import javax.xml.transform.OutputKeys;
+import javax.xml.transform.Transformer;
+import javax.xml.transform.TransformerConfigurationException;
+import javax.xml.transform.TransformerException;
+import javax.xml.transform.TransformerFactory;
+import javax.xml.transform.TransformerFactoryConfigurationError;
+import javax.xml.transform.dom.DOMSource;
+import javax.xml.transform.stream.StreamResult;
 import org.w3c.dom.Document;
 import org.w3c.dom.Element;
 import org.w3c.dom.NamedNodeMap;
 import org.w3c.dom.Node;
+import org.w3c.dom.NodeList;
 import org.xml.sax.SAXException;
 
 /**
@@ -32,7 +43,7 @@ import org.xml.sax.SAXException;
  *
  * @author Kathrin Janowski
  */
-public class StatusMessage {
+public class StatusMessage extends XMLMessage{
 
     /**
      * The task identifier.
@@ -59,6 +70,9 @@ public class StatusMessage {
      */
     public StatusMessage(String taskID, String status)
             throws IllegalArgumentException {
+        
+        super();
+        
         // validate the message
         if (taskID == null || status == null) {
             throw new IllegalArgumentException(
@@ -79,53 +93,9 @@ public class StatusMessage {
      * missing
      */
     public StatusMessage(String messageStr) throws IllegalArgumentException {
-        try {
-            //------------------------------------------------------------------
-            // read the XML string
-            //------------------------------------------------------------------
-            final ByteArrayInputStream stream = new ByteArrayInputStream(messageStr.getBytes("UTF-8"));
-            final DocumentBuilderFactory factory = DocumentBuilderFactory.newInstance();
-            final DocumentBuilder builder = factory.newDocumentBuilder();
-            final Document document = builder.parse(stream);
-
-            // get the root element
-            final Element status = document.getDocumentElement();
-            if (!status.getNodeName().equals("status")) {
-                throw new IllegalArgumentException("XML root element must be of type \"status\"");
-            }
-
-            //------------------------------------------------------------------
-            // parse all attributes
-            //------------------------------------------------------------------
-            mStatusDetails = new TreeMap<String, String>();
-
-            NamedNodeMap attributes = status.getAttributes();
-            int attrCount = attributes.getLength();
-            for (int i = 0; i < attrCount; i++) {
-                Node attr = attributes.item(i);
-                String attrName = attr.getNodeName();
-                String attrValue = attr.getNodeValue();
-
-                if (attrName.equals("task")) {
-                    mTaskID = attrValue;
-                } else if (attrName.equals("status")) {
-                    mStatus = attrValue;
-                } else //arbitrary command parameters
-                {
-                    mStatusDetails.put(attrName, attrValue);
-                }
-            }
-        } catch (UnsupportedEncodingException ex) {
-            throw new IllegalArgumentException("UTF-8 input not supported");
-        } catch (SAXException ex) {
-            throw new IllegalArgumentException("invalid XML syntax");
-        } catch (ParserConfigurationException ex) {
-            Logger.getLogger(StatusMessage.class.getName()).log(Level.SEVERE,
-                    "invalid parser configuration", ex);
-        } catch (IOException ex) {
-            Logger.getLogger(StatusMessage.class.getName()).log(Level.SEVERE,
-                    "can't read message string", ex);
-        }
+        
+        super();
+        parseDocument(messageStr);
 
         // validate the message
         if (mTaskID == null || mStatus == null) {
@@ -135,52 +105,85 @@ public class StatusMessage {
     }
 
     /**
-     * Creates the XML representation of the message. Used for transmitting it
-     * between the robot engine and an external control application.
+     * Creates a StatusMessage by parsing an individual XML node.
      *
-     * @return an XML-formatted status message
+     * @param messageNode the XML node containing the message data
+     * @throws IllegalArgumentException if the taskID or the status label is
+     * missing
      */
+    public StatusMessage(Node messageNode){
+        super();
+        createDocument();
+        mDocument.appendChild(messageNode);
+        parseMessageContent();
+    }
+    
+    
     @Override
-    public String toString() {
-        StringBuilder builder = new StringBuilder("<status task=\"");
-        builder.append(mTaskID);
-        builder.append("\" status=\"");
-        builder.append(mStatus);
-        builder.append("\"");
-
-        Set<Entry<String, String>> details = mStatusDetails.entrySet();
-        for (Entry detail : details) {
-            builder.append(" ");
-            builder.append(detail.getKey());
-            builder.append("=\"");
-            builder.append(detail.getValue());
-            builder.append("\"");
+    protected void parseMessageContent()
+    {
+        if(mDocument==null)
+        {
+            cLogger.log(Level.SEVERE, "Can't parse status content: The document was not created yet!");
+            return;
         }
+        
+        
+        NodeList statusElements = mDocument.getElementsByTagName("status");
+        if(statusElements.getLength()==0)
+        {
+            cLogger.log(Level.SEVERE, "No <status> element in the XML message!");
+            return;
+        }
+        
+        //------------------------------------------------------------------
+        // parse all attributes
+        //------------------------------------------------------------------
+        Element statusNode = (Element)statusElements.item(0);
+        mStatusDetails = new TreeMap<String, String>();
 
-        builder.append("/>");
+        NamedNodeMap attributes = statusNode.getAttributes();
+        int attrCount = attributes.getLength();
+        for (int i = 0; i < attrCount; i++) {
+            Node attr = attributes.item(i);
+            String attrName = attr.getNodeName();
+            String attrValue = attr.getNodeValue();
 
-        return builder.toString();
+            if (attrName.equals("task")) {
+                mTaskID = attrValue;
+            } else if (attrName.equals("status")) {
+                mStatus = attrValue;
+            } else //arbitrary status details
+            {
+                mStatusDetails.put(attrName, attrValue);
+            }
+        }
+        
+        // validate the message
+        if (mTaskID == null || mStatus == null) {
+            throw new IllegalArgumentException(
+                    "StatusMessage requires at least a task ID and status label");
+        }
     }
 
-    /**
-     * Adds the given status detail. If the entry exists, its value is replaced.
-     *
-     * @param detailName the detail name
-     * @param detailValue the detail value
-     */
-    public void addDetail(String detailName, String detailValue) {
-        mStatusDetails.put(detailName, detailValue);
+    
+    
+    @Override
+    public Element createMessageElement(Document doc){
+        Element statusElem = doc.createElement("status");
+        statusElem.setAttribute("task", mTaskID);
+        statusElem.setAttribute("status", mStatus);
+            
+        Set<Entry<String, String>> params = mStatusDetails.entrySet();
+        for (Entry<String, String> param : params)
+            statusElem.setAttribute(param.getKey(), param.getValue());
+        
+        return statusElem;
     }
 
-    /**
-     * Removes the given status detail.
-     *
-     * @param detailName the parameter name
-     */
-    public void removeDetail(String detailName) {
-        mStatusDetails.remove(detailName);
-    }
 
+
+   
     /*==========================================================================
      *  getters
      *==========================================================================*/
@@ -199,4 +202,24 @@ public class StatusMessage {
     public String getDetail(String detailName) {
         return mStatusDetails.get(detailName);
     }
+    
+        /**
+     * Adds the given status detail. If the entry exists, its value is replaced.
+     *
+     * @param detailName the detail name
+     * @param detailValue the detail value
+     */
+    public void addDetail(String detailName, String detailValue) {
+        mStatusDetails.put(detailName, detailValue);
+    }
+
+    /**
+     * Removes the given status detail.
+     *
+     * @param detailName the parameter name
+     */
+    public void removeDetail(String detailName) {
+        mStatusDetails.remove(detailName);
+    }
+
 }

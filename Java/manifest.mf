@@ -1,4 +1,4 @@
 Manifest-Version: 1.0
 X-COMMENT: Main-Class will be added automatically by build
 Author: Kathrin Janowski
-Version: 3.0.0
+Version: 3.0.1

@@ -4,28 +4,15 @@ import java.util.Map.Entry;
 import java.util.Set;
 import java.util.TreeMap;
 
-import java.io.ByteArrayInputStream;
-import java.io.IOException;
 import java.io.StringWriter;
-import java.io.UnsupportedEncodingException;
 import java.util.logging.Level;
 import java.util.logging.Logger;
-
-import javax.xml.parsers.DocumentBuilder;
-import javax.xml.parsers.DocumentBuilderFactory;
-import javax.xml.parsers.ParserConfigurationException;
-import javax.xml.transform.OutputKeys;
-import javax.xml.transform.Transformer;
-import javax.xml.transform.TransformerConfigurationException;
-import javax.xml.transform.TransformerException;
-import javax.xml.transform.TransformerFactory;
-import javax.xml.transform.dom.DOMSource;
-import javax.xml.transform.stream.StreamResult;
 import org.w3c.dom.Document;
 import org.w3c.dom.Element;
 import org.w3c.dom.NamedNodeMap;
 import org.w3c.dom.Node;
-import org.xml.sax.SAXException;
+import org.w3c.dom.NodeList;
+
 
 /**
  * The data structure for messages sent from the control application to the
@@ -43,7 +30,7 @@ import org.xml.sax.SAXException;
  *
  * @author Kathrin Janowski
  */
-public class CommandMessage {
+public class CommandMessage extends XMLMessage{
 
     /**
      * The task identifier.
@@ -70,6 +57,7 @@ public class CommandMessage {
      */
     public CommandMessage(String taskID, String type)
             throws IllegalArgumentException {
+        super();
         // validate the message
         if (taskID == null || type == null) {
             throw new IllegalArgumentException(
@@ -90,46 +78,46 @@ public class CommandMessage {
      * missing
      */
     public CommandMessage(String messageStr) throws IllegalArgumentException {
-        try {
-            //------------------------------------------------------------------
-            // read the XML string
-            //------------------------------------------------------------------
-            final ByteArrayInputStream stream = new ByteArrayInputStream(messageStr.getBytes("UTF-8"));
-            final DocumentBuilderFactory factory = DocumentBuilderFactory.newInstance();
-            final DocumentBuilder builder = factory.newDocumentBuilder();
-            final Document document = builder.parse(stream);
-            
-            // get the root element
-            final Element command = document.getDocumentElement();
-            parseDOMNode(command);
-        } catch (UnsupportedEncodingException ex) {
-            throw new IllegalArgumentException("UTF-8 input not supported");
-        } catch (SAXException ex) {
-            throw new IllegalArgumentException("invalid XML syntax");
-        } catch (ParserConfigurationException ex) {
-            Logger.getLogger(CommandMessage.class.getName()).log(Level.SEVERE,
-                    "invalid parser configuration", ex);
-        } catch (IOException ex) {
-            Logger.getLogger(CommandMessage.class.getName()).log(Level.SEVERE,
-                    "can't read message string", ex);
-        }
+        super();
+        parseDocument(messageStr);
+    }    
 
+    /**
+     * Creates a CommandMessage by parsing an individual XML node.
+     *
+     * @param messageNode the XML node containing the message data
+     * @throws IllegalArgumentException if the taskID or the command type is
+     * missing
+     */
+    public CommandMessage(Node messageNode){
+        super();
+        createDocument();
+        mDocument.appendChild(messageNode);
+        parseMessageContent();
     }
+
     
-    public CommandMessage(Node cmdNode) throws IllegalArgumentException {
-        if (!cmdNode.getNodeName().equals("command")) {
-            throw new IllegalArgumentException("XML element must be of type \"command\"");
+    @Override
+    protected void parseMessageContent()
+    {
+        if(mDocument==null)
+        {
+            cLogger.log(Level.SEVERE, "Can't parse command content: The document was not created yet!");
+            return;
         }
         
-        parseDOMNode(cmdNode);
-    }
-    
-    
-    private void parseDOMNode(Node cmdNode)
-    {
+        
+        NodeList cmdElements = mDocument.getElementsByTagName("command");
+        if(cmdElements.getLength()==0)
+        {
+            cLogger.log(Level.SEVERE, "No <command> element in the XML message!");
+            return;
+        }
+        
         //------------------------------------------------------------------
         // parse all attributes
         //------------------------------------------------------------------
+        Element cmdNode = (Element)cmdElements.item(0);
         mCommandParams = new TreeMap<String, String>();
 
         NamedNodeMap attributes = cmdNode.getAttributes();
@@ -156,94 +144,21 @@ public class CommandMessage {
         }
     }
 
-    
-    public Element createElement(Document doc){
-        Element command = doc.createElement("command");
-        command.setAttribute("task", mTaskID);
-        command.setAttribute("type", mCommandType);
+    @Override
+    public Element createMessageElement(Document doc){
+        
+        Element cmdElem = doc.createElement("command");
+        cmdElem.setAttribute("task", mTaskID);
+        cmdElem.setAttribute("type", mCommandType);
             
         Set<Entry<String, String>> params = mCommandParams.entrySet();
         for (Entry<String, String> param : params)
-            command.setAttribute(param.getKey(), param.getValue());
+            cmdElem.setAttribute(param.getKey(), param.getValue());
         
-        return command;
+        return cmdElem;
     }
     
-    public Document toDocument(){
-        try {
-            //------------------------------------------------------------------
-            // create the XML element
-            //------------------------------------------------------------------
-            final DocumentBuilderFactory factory = DocumentBuilderFactory.newInstance();
-            final DocumentBuilder builder = factory.newDocumentBuilder();
-            final Document document = builder.newDocument();
-            
-            // get the root element
-            final Element command = createElement(document);
-            document.appendChild(command);
-            
-            return document;
-        } catch (ParserConfigurationException ex) {
-            Logger.getLogger(CommandMessage.class.getName()).log(Level.SEVERE,
-                    "invalid parser configuration: {0}", ex.toString());
-        }
-        
-        return null;
-    }
     
-    /**
-     * Creates the XML representation of the message. Used for transmitting it
-     * between the robot engine and an external control application.
-     *
-     * @return an XML node describing the command message
-     */
-    @Override
-    public String toString() {
-        Document doc = toDocument();
-        
-        try{
-            TransformerFactory factory = TransformerFactory.newInstance();
-            Transformer transformer = factory.newTransformer();
-            transformer.setOutputProperty(OutputKeys.ENCODING, "UTF-8");
-            transformer.setOutputProperty(OutputKeys.OMIT_XML_DECLARATION, "yes");
-        
-            StringWriter writer = new StringWriter();
-            DOMSource source = new DOMSource(doc);
-            
-            transformer.transform(source, new StreamResult(writer));            
-            return writer.getBuffer().toString();
-            
-        } catch (TransformerConfigurationException ex) {
-            Logger.getLogger(CommandMessage.class.getName()).log(Level.SEVERE,
-                    "invalid transformer configuration: {0}", ex.toString());
-        } catch (TransformerException ex) {
-            Logger.getLogger(CommandMessage.class.getName()).log(Level.SEVERE,
-                    "could not create String from DOM node: {0}", ex.toString());
-        }
-        
-        return null;
-    }
-
-    /**
-     * Adds the given command parameter. If the entry exists, its value is
-     * replaced.
-     *
-     * @param paramName the parameter name
-     * @param paramValue the parameter value
-     */
-    public void addParameter(String paramName, String paramValue) {
-        mCommandParams.put(paramName, paramValue);
-    }
-
-    /**
-     * Removes the given command parameter.
-     *
-     * @param paramName the parameter name
-     */
-    public void removeParameter(String paramName) {
-        mCommandParams.remove(paramName);
-    }
-
     /*==========================================================================
      *  getters
      *==========================================================================*/
@@ -261,6 +176,26 @@ public class CommandMessage {
 
     public String getParam(String paramName) {
         return mCommandParams.get(paramName);
+    }
+
+        /**
+     * Adds the given command parameter. If the entry exists, its value is
+     * replaced.
+     *
+     * @param paramName the parameter name
+     * @param paramValue the parameter value
+     */
+    public void addParameter(String paramName, String paramValue) {
+        mCommandParams.put(paramName, paramValue);
+    }
+
+    /**
+     * Removes the given command parameter.
+     *
+     * @param paramName the parameter name
+     */
+    public void removeParameter(String paramName) {
+        mCommandParams.remove(paramName);
     }
 
 }
