@@ -28,47 +28,47 @@ public abstract class RobotEngine {
     protected Properties mEngineConfig;
     
     
-    /**
-     * Sets the output handler for the global/root Logger with name "".
-     * 
-     * By default, all child Loggers will use this <code>Handler</code>
-     * and its <code>Formatter</code>.
-     * 
-     * @param handler the new output handler
-     * @param removeExisting true for removing all previously existing handlers,
-     *                       false for keeping them
-     * @see java.util.logging.Logger
-     * @see java.util.logging.Handler
-     * @see java.util.logging.Formatter
-     */
-    protected final void setGlobalLogHandler(Handler handler, boolean removeExisting)
-    {
-        Logger globalLogger = Logger.getLogger("");
-        
-        if(removeExisting)
-        {
-            Handler[] globalHandlers = globalLogger.getHandlers();
-            for(Handler h: globalHandlers)
-                globalLogger.removeHandler(h);
-        }
-        
-        globalLogger.addHandler(handler);        
-    }
-
-    /**
-     * Sets the minimum level for the global/root Logger with name "".
-     * 
-     * By default, all child Loggers will use this <code>Level</code>.
-     * 
-     * @param level the minimum global log level
-     * @see java.util.logging.Logger
-     * @see java.util.logging.Level
-     */
-    protected final void setGlobalLogLevel(Level level)
-    {
-        Logger globalLogger = Logger.getLogger("");
-        globalLogger.setLevel(level);
-    }
+//    /**
+//     * Sets the output handler for the global/root Logger with name "".
+//     * 
+//     * By default, all child Loggers will use this <code>Handler</code>
+//     * and its <code>Formatter</code>.
+//     * 
+//     * @param handler the new output handler
+//     * @param removeExisting true for removing all previously existing handlers,
+//     *                       false for keeping them
+//     * @see java.util.logging.Logger
+//     * @see java.util.logging.Handler
+//     * @see java.util.logging.Formatter
+//     */
+//    protected final void setGlobalLogHandler(Handler handler, boolean removeExisting)
+//    {
+//        Logger globalLogger = Logger.getLogger("");
+//        
+//        if(removeExisting)
+//        {
+//            Handler[] globalHandlers = globalLogger.getHandlers();
+//            for(Handler h: globalHandlers)
+//                globalLogger.removeHandler(h);
+//        }
+//        
+//        globalLogger.addHandler(handler);        
+//    }
+//
+//    /**
+//     * Sets the minimum level for the global/root Logger with name "".
+//     * 
+//     * By default, all child Loggers will use this <code>Level</code>.
+//     * 
+//     * @param level the minimum global log level
+//     * @see java.util.logging.Logger
+//     * @see java.util.logging.Level
+//     */
+//    protected final void setGlobalLogLevel(Level level)
+//    {
+//        Logger globalLogger = Logger.getLogger("");
+//        globalLogger.setLevel(level);
+//    }
 
     /**
      * Sets the formatter for the global/root Logger with name "".

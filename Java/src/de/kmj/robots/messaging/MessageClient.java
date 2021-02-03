@@ -5,6 +5,8 @@ import java.net.DatagramSocket;
 import java.net.InetSocketAddress;
 import java.net.SocketAddress;
 import java.util.Arrays;
+import java.util.logging.ConsoleHandler;
+import java.util.logging.Handler;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 
@@ -142,7 +144,7 @@ public class MessageClient extends Thread {
                 // create the client socket
                 mClientSocket = new DatagramSocket(mLocalAddr);
 
-                cLogger.log(Level.FINE, "client socket ready: local address {0}",
+                cLogger.log(Level.INFO, "client socket ready: local address {0}",
                                 mLocalAddr);
 
                 mClientSocket.connect(mRemoteAddr);
@@ -189,6 +191,11 @@ public class MessageClient extends Thread {
         }
     }
     
+    public void addLogHandler(Handler handler)
+    {
+        cLogger.addHandler(handler);
+    }
+    
     /**
      * Sends a message to the RobotEngine application.
      *
@@ -209,9 +216,9 @@ public class MessageClient extends Thread {
                     = new DatagramPacket(buffer, buffer.length, mRemoteAddr);
 
             // send the UDP packet
-            cLogger.log(Level.FINE, "sending: {0}", message);
+            cLogger.log(Level.INFO, "sending: {0}", message);
             mClientSocket.send(packet);
-            cLogger.log(Level.FINE, "message sent");
+            cLogger.log(Level.INFO, "message sent");
             return true;
         } catch (final Exception e) {
             cLogger.log(Level.SEVERE, "could not send message: {0}", e.toString());
@@ -242,7 +249,7 @@ public class MessageClient extends Thread {
             mClientSocket.receive(packet);
 
             mRemoteAddr = packet.getSocketAddress();
-            cLogger.log(Level.FINER, "received packet from address {0}",
+            cLogger.log(Level.INFO, "received packet from address {0}",
                             mRemoteAddr.toString());
 
             return Arrays.copyOf(buffer, packet.getLength());
@@ -310,8 +317,6 @@ public class MessageClient extends Thread {
             // receive a new message
             final StatusMessage status = recvStatus();
             if (status != null) {
-                cLogger.log(Level.FINE, "received message: {0}", status.toString());
-
                 // handle the event --------------------------------------------
                 mStatusHandler.handleStatusMessage(status);
             }
