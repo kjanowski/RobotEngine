@@ -181,6 +181,14 @@ public class MessageClient extends Thread {
         }
     }
 
+    public void setLogLevel(Level level){
+        try{
+            cLogger.setLevel(level);
+        }catch(SecurityException se){
+            cLogger.log(Level.SEVERE, "could not change log level: "+se.getMessage());
+        }
+    }
+    
     /**
      * Sends a message to the RobotEngine application.
      *

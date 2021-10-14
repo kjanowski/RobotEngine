@@ -1,3 +1,7 @@
+Version 3.0.2
+- date: 2nd February 2021
+- added setLogLevel() to MessageServer and MessageClient
+
 Version 3.0.1
 - date: 17th March 2020
 - added class XMLMessage
