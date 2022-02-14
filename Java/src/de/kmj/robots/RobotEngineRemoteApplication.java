@@ -37,6 +37,8 @@ import java.util.logging.Logger;
 public class RobotEngineRemoteApplication
     implements StatusMessageHandler, CommandMessageHandler{
 
+    private static final Logger cLogger = Logger.getLogger(RobotEngineRemoteApplication.class.getName());
+            
     /** Handles the remote connection to the control application. */
     MessageServer mMessageServer;
 
@@ -56,13 +58,11 @@ public class RobotEngineRemoteApplication
     {        
         if (appConfigPath == null || appConfigPath.isEmpty())
         {
-            Logger.getLogger(RobotEngineRemoteApplication.class.getName()).
-                log(Level.SEVERE, "could not load application configuration: no path given");
+            cLogger.log(Level.SEVERE, "could not load application configuration: no path given");
             return false;
         }
 
-        Logger.getLogger(RobotEngineRemoteApplication.class.getName()).
-                log(Level.INFO, "loading application configuration: {0}", appConfigPath);
+        cLogger.log(Level.INFO, "loading application configuration: {0}", appConfigPath);
 
         
         //----------------------------------------------------------------------
@@ -79,15 +79,14 @@ public class RobotEngineRemoteApplication
                 stream.close();
             }
             else {
-                Logger.getLogger(RobotEngineRemoteApplication.class.getName()).
-                    log(Level.SEVERE,
+                cLogger.log(Level.SEVERE,
                         "could not load application configuration: file {0} not found",
                         appConfigPath);
                 return false;
             }            
         }
         catch (IOException exc) {
-            Logger.getLogger(RobotEngineRemoteApplication.class.getName()).
+            cLogger.
                 log(Level.SEVERE,
                     "could not load application configuration: {0}",
                     exc.getMessage());
@@ -97,7 +96,7 @@ public class RobotEngineRemoteApplication
         //----------------------------------------------------------------------
         // successfully loaded
         //----------------------------------------------------------------------
-        Logger.getLogger(RobotEngineRemoteApplication.class.getName()).
+        cLogger.
                 log(Level.INFO,
                     "successfully loaded application configuration: {0}",
                     mAppConfig.toString());
@@ -124,8 +123,7 @@ public class RobotEngineRemoteApplication
         boolean check=loadConfig(appConfigPath);
         if(!check)
         {
-            Logger.getLogger(RobotEngineRemoteApplication.class.getName()).
-                log(Level.SEVERE,
+            cLogger.log(Level.SEVERE,
                     "could not load required application parameters -> abort launch");
             return false;
         }
@@ -137,7 +135,7 @@ public class RobotEngineRemoteApplication
         String engineClass = mAppConfig.getProperty("engine.class");
         if((engineClass == null) || engineClass.isEmpty())
         {
-            Logger.getLogger(RobotEngineRemoteApplication.class.getName()).
+            cLogger.
                 log(Level.SEVERE, "missing parameter in application configuration: engine.class");
             return false;
         }
@@ -145,8 +143,7 @@ public class RobotEngineRemoteApplication
         String engineConfig = mAppConfig.getProperty("engine.config");
         if((engineConfig == null) || engineConfig.isEmpty())
         {
-            Logger.getLogger(RobotEngineRemoteApplication.class.getName()).
-                log(Level.SEVERE, "missing parameter in application configuration: engine.config");
+            cLogger.log(Level.SEVERE, "missing parameter in application configuration: engine.config");
             return false;
         }
         
@@ -155,8 +152,7 @@ public class RobotEngineRemoteApplication
         
         if(mEngine==null)
         {
-            Logger.getLogger(RobotEngineRemoteApplication.class.getName()).
-                log(Level.SEVERE, "could not load robot engine class: {0}",
+            cLogger.log(Level.SEVERE, "could not load robot engine class: {0}",
                     engineClass);
             return false;
         }
@@ -184,13 +180,38 @@ public class RobotEngineRemoteApplication
         }
         catch(IllegalArgumentException iae)
         {
-            Logger.getLogger(RobotEngineRemoteApplication.class.getName()).
-                log(Level.WARNING, "invalid network configuration: {0}"
+            cLogger.log(Level.WARNING, "invalid network configuration: {0}"
                     + "\n\t-> only console input available", 
                     iae.toString()
                 );
             mMessageServer = null;
         }        
+        
+        
+        //----------------------------------------------------------------------
+        // configure the loggers
+        //----------------------------------------------------------------------
+        String logLevelStr = mAppConfig.getProperty("logLevel.app");
+        try{
+            Level logLevel = Level.parse(logLevelStr.toUpperCase());
+            cLogger.log(Level.INFO, "application log level: {0}", logLevel.getName());
+            cLogger.setLevel(logLevel);
+        }catch(IllegalArgumentException e)
+        {
+            cLogger.log(Level.SEVERE, "could not parse application log level: {0}", e.getMessage());
+            //leave level as it is
+        }
+        
+        logLevelStr = mAppConfig.getProperty("logLevel.messaging");
+        try{
+            Level logLevel = Level.parse(logLevelStr.toUpperCase());
+            cLogger.log(Level.INFO, "message server log level: {0}", logLevel.getName());
+            mMessageServer.setLogLevel(logLevel);
+        }catch(IllegalArgumentException e)
+        {
+            cLogger.log(Level.SEVERE, "could not parse messaging log level: {0}", e.getMessage());
+            //leave level as it is
+        }
         
         return true;
     }
@@ -208,12 +229,10 @@ public class RobotEngineRemoteApplication
         try {
             mMessageServer.join();
         } catch (InterruptedException ie) {
-            Logger.getLogger(RobotEngineRemoteApplication.class.getName()).
-                log(Level.FINE, "interrupted while stopping the message server");
+            cLogger.log(Level.FINE, "interrupted while stopping the message server");
         }
 
-        Logger.getLogger(RobotEngineRemoteApplication.class.getName()).
-                log(Level.INFO, "shutdown complete");
+        cLogger.log(Level.INFO, "shutdown complete");
         System.exit(0);
     }
     
@@ -255,8 +274,7 @@ public class RobotEngineRemoteApplication
                         }
                         catch(IllegalArgumentException ex)
                         {
-                            Logger.getLogger(RobotEngineRemoteApplication.class.getName()).
-                                log(Level.SEVERE,
+                            cLogger.log(Level.SEVERE,
                                     "could not parse command: {0}", line);
                         }
                     }
@@ -301,15 +319,13 @@ public class RobotEngineRemoteApplication
                     return theEngine;
                 }
                 else{
-                    Logger.getLogger(RobotEngineRemoteApplication.class.getName()).
-                        log(Level.SEVERE, "{0} has no valid constructor",
+                    cLogger.log(Level.SEVERE, "{0} has no valid constructor",
                             className);
                     return null;
                 }
             }
             else{
-                Logger.getLogger(RobotEngineRemoteApplication.class.getName()).
-                    log(Level.SEVERE, "{0} is not a valid RobotEngine subclass",
+                cLogger.log(Level.SEVERE, "{0} is not a valid RobotEngine subclass",
                         className);
                 return null;
             }
@@ -317,38 +333,30 @@ public class RobotEngineRemoteApplication
         //TODO: improve error messages
         catch(ClassNotFoundException e)
         {
-            Logger.getLogger(RobotEngineRemoteApplication.class.getName()).
-                log(Level.SEVERE, "RobotEngine class {0} not found", className);
+            cLogger.log(Level.SEVERE, "RobotEngine class {0} not found", className);
         }
         catch(NoClassDefFoundError e){
-            Logger.getLogger(RobotEngineRemoteApplication.class.getName()).
-                log(Level.SEVERE,
+            cLogger.log(Level.SEVERE,
                     "no class definition found for RobotEngine class {0}",
                     className);
         }
         catch (NoSuchMethodException e) {
-            Logger.getLogger(RobotEngineRemoteApplication.class.getName()).
-                log(Level.SEVERE, "could not load RobotEngine of class {0}: {1}",
+            cLogger.log(Level.SEVERE, "could not load RobotEngine of class {0}: {1}",
                     new Object[]{className, e.toString()});
         } catch (SecurityException e) {
-            Logger.getLogger(RobotEngineRemoteApplication.class.getName()).
-                log(Level.SEVERE, "could not load RobotEngine of class {0}: {1}",
+            cLogger.log(Level.SEVERE, "could not load RobotEngine of class {0}: {1}",
                     new Object[]{className, e.toString()});
         } catch (InstantiationException e) {
-            Logger.getLogger(RobotEngineRemoteApplication.class.getName()).
-                log(Level.SEVERE, "could not load RobotEngine of class {0}: {1}",
+            cLogger.log(Level.SEVERE, "could not load RobotEngine of class {0}: {1}",
                     new Object[]{className, e.toString()});
         } catch (IllegalAccessException e) {
-            Logger.getLogger(RobotEngineRemoteApplication.class.getName()).
-                log(Level.SEVERE, "could not load RobotEngine of class {0}: {1}",
+            cLogger.log(Level.SEVERE, "could not load RobotEngine of class {0}: {1}",
                     new Object[]{className, e.toString()});
         } catch (IllegalArgumentException e) {
-            Logger.getLogger(RobotEngineRemoteApplication.class.getName()).
-                log(Level.SEVERE, "could not load RobotEngine of class {0}: {1}",
+            cLogger.log(Level.SEVERE, "could not load RobotEngine of class {0}: {1}",
                     new Object[]{className, e.toString()});
         } catch (InvocationTargetException e) {
-            Logger.getLogger(RobotEngineRemoteApplication.class.getName()).
-                log(Level.SEVERE, "could not load RobotEngine of class {0}: {1}",
+            cLogger.log(Level.SEVERE, "could not load RobotEngine of class {0}: {1}",
                     new Object[]{className, e.toString()});
         }
 
@@ -366,8 +374,7 @@ public class RobotEngineRemoteApplication
             mEngine.executeCommand(message);
         }catch(Exception e)
         {
-            Logger.getLogger(RobotEngineRemoteApplication.class.getName())
-                    .log(Level.SEVERE, "could not handle command: {0}", e.toString());
+            cLogger.log(Level.SEVERE, "could not handle command: {0}", e.toString());
         }
     }
 

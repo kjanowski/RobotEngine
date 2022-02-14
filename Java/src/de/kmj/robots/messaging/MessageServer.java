@@ -6,6 +6,8 @@ import java.net.DatagramSocket;
 import java.net.InetSocketAddress;
 import java.net.SocketAddress;
 import java.util.TreeMap;
+import java.util.logging.ConsoleHandler;
+import java.util.logging.Handler;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 
@@ -148,6 +150,11 @@ public class MessageServer extends Thread {
         }
     }
     
+    public void addLogHandler(Handler handler)
+    {
+        cLogger.addHandler(handler);
+    }
+    
     /**
      * Sends a status message to the control application.
      *
@@ -179,9 +186,9 @@ public class MessageServer extends Thread {
                     = new DatagramPacket(buffer, buffer.length, addr);
 
             // send the UDP packet
-            cLogger.log(Level.FINE, "sending: {0}", message);
+            cLogger.log(Level.INFO, "sending: {0}", message);
             mServerSocket.send(packet);
-            cLogger.log(Level.FINE, "message sent");
+            cLogger.log(Level.INFO, "message sent");
         } catch (IOException e) {
             cLogger.log(Level.SEVERE, "could not send message: {0}", e.toString());
             return false;
@@ -219,7 +226,7 @@ public class MessageServer extends Thread {
 
             
             addr = packet.getSocketAddress();
-            cLogger.log(Level.FINER, "received packet from address {0}",
+            cLogger.log(Level.INFO, "received packet from address {0}",
                             addr.toString());
 
             // convert to string
@@ -264,8 +271,6 @@ public class MessageServer extends Thread {
             // receive a new message
             final CommandMessage cmd = recvCommand();
             if (cmd != null) {
-                cLogger.log(Level.FINE, "received message: {0}", cmd.toString());
-
                 // handle the event --------------------------------------------
                 mCommandHandler.handleCommandMessage(cmd);
             }

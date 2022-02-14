@@ -1,5 +1,6 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using System.Globalization;
 
 using UnityEngine;
 using UnityEngine.UI;
@@ -12,6 +13,8 @@ public class UnityBotEngine : MonoBehaviour, ICommandMessageHandler
 	[Header("Agent Components")]
 	public MySpeaker speaker;
 	public HeadIK headIK;
+	public Animator animator;
+	public FACSAnimator facsAnimator;
 	
 	[Space(20)]
 	[Header("Direct Input Field")]
@@ -25,33 +28,31 @@ public class UnityBotEngine : MonoBehaviour, ICommandMessageHandler
 	[Range(1024,4096)]
 	public int bufferSize = 1024;
 	
-	private MessageServer _server;	private Coroutine _serverCoroutine;
+	private MessageServer _server;
+	private Queue<CommandMessage> _cmdBuffer;
 	
+	private CommandMessage _currentAnim; //TODO replace with proper scheduler!!!
 	
     // Start is called before the first frame update
     void Start()
-    {
-		//start the server
+	{
+		_cmdBuffer = new Queue<CommandMessage>();
+		_currentAnim = null;
+		
+	    //start the server
 	    _server = new MessageServer(this, bufferSize, localIPAddress, localPort);
-	    StartCoroutine("ListenForCommands");
-    }
+	}
 	
 
     // Update is called once per frame
     void Update()
     {
-	    
+	    while(_cmdBuffer.Count>0)
+	    {
+	    	CommandMessage cmd = _cmdBuffer.Dequeue();
+	    	Execute(cmd);
+	    }
     }
-
-	IEnumerator ListenForCommands()
-	{
-		for(;;)
-		{
-			_server.Receive();
-			yield return new WaitForSeconds(0.1f);
-		}
-	}
-	
 
 	public void ExecuteRawText(){
 		try{
@@ -65,7 +66,7 @@ public class UnityBotEngine : MonoBehaviour, ICommandMessageHandler
 	
 	public void HandleCommandMessage(CommandMessage cmd){
 		if(cmd!=null)
-			Execute(cmd);
+			_cmdBuffer.Enqueue(cmd);
 	}
 
 	private void Execute(CommandMessage cmd)
@@ -73,19 +74,27 @@ public class UnityBotEngine : MonoBehaviour, ICommandMessageHandler
 		if(cmd==null)
 			return;
 		
+		Debug.Log(gameObject.name+" received command "+cmd.ToString());
+		
 		switch(cmd.GetCommandType())
 		{
+			case "stopSpeech":
+				{
+					if(speaker!=null){
+						speaker.StopSpeech();
+					}
+					else SendStatus(cmd.GetTaskID(), "finished");
+					break;
+				}
 			case "speech":
 				{
 					if(speaker!=null){
 						string text = cmd.GetParam("text");
 						if(text!=null)
 						{
-							bool started = speaker.Speak(text);
-							if(started)
-								SendStatus(cmd.GetTaskID(), "started");
+							speaker.Speak(cmd);
 						}else RejectCommand(cmd.GetTaskID(), "no 'text' attribute found");
-					}
+					}else RejectCommand(cmd.GetTaskID(), "speech not supported");
 					break;
 				}
 			case "gaze":
@@ -98,25 +107,40 @@ public class UnityBotEngine : MonoBehaviour, ICommandMessageHandler
 						string timeStr = cmd.GetParam("time");
 						
 						double x = 0.0;
-						double.TryParse(xStr, out x);
+						double.TryParse(xStr, NumberStyles.Any, CultureInfo.GetCultureInfo("en-US"), out x);
 						double y = 0.0;
-						double.TryParse(yStr, out y);
+						double.TryParse(yStr, NumberStyles.Any, CultureInfo.GetCultureInfo("en-US"), out y);
 						double z = 0.0;
-						double.TryParse(zStr, out z);
+						double.TryParse(zStr, NumberStyles.Any, CultureInfo.GetCultureInfo("en-US"), out z);
 						double time = 0;
-						double.TryParse(timeStr, out time);
+						double.TryParse(timeStr, NumberStyles.Any, CultureInfo.GetCultureInfo("en-US"), out time);
 						
 						
-						bool started = headIK.GazeAt(x,y,z,time);
+						bool started = headIK.GazeAt(cmd.GetTaskID(), x,y,z,time);
 						if(started)
 							SendStatus(cmd.GetTaskID(), "started");
 					}else RejectCommand(cmd.GetTaskID(), "gaze animation not supported");
 					
 					break;
 				}
+			case "anim":
+			{
+				if(animator!=null){
+					PlayAnimation(cmd.GetTaskID(), cmd.GetParam("name"));
+					
+				}else RejectCommand(cmd.GetTaskID(), "body animation not supported");
+				break;
+			}
+			case "facs":
+			{
+				if(facsAnimator!=null){
+					facsAnimator.ShowFACS(cmd);
+				}else RejectCommand(cmd.GetTaskID(), "FACS animation not supported");
+				break;
+			}
 			default:
 				{
-					Debug.LogWarning("unknown command type: \""+cmd.GetCommandType()+"\"");
+					RejectCommand(cmd.GetTaskID(), "unsupported command type");
 					break;
 				}
 		}	
@@ -128,7 +152,7 @@ public class UnityBotEngine : MonoBehaviour, ICommandMessageHandler
 		StatusMessage msg = new StatusMessage(taskID, "rejected");
 		msg.AddDetail("reason", reason);
 		
-		return SendStatus(msg);
+		return SendStatusMessage(msg);
 	}
 	
 
@@ -136,18 +160,51 @@ public class UnityBotEngine : MonoBehaviour, ICommandMessageHandler
 	{
 		StatusMessage msg = new StatusMessage(taskID, status);
 		
-		return SendStatus(msg);
+		return SendStatusMessage(msg);
 	}
 	
-	public bool SendStatus(StatusMessage msg)
+	public bool SendStatusMessage(StatusMessage msg)
 	{
-		Debug.Log(msg.ToString());
-		//TODO send over server socket
+		bool success =	_server.SendStatus(msg);
+		if(!success)
+			Debug.Log("could not send status message: "+msg.ToString());
 		
-		return true;
+		return success;
+	}	
+		
+	public void AnimationFinished(string taskID){
+		SendStatus(taskID, "finished");
 	}
 	
-	public void Log(string logMessage){
-		Debug.Log(logMessage);
+	private void PlayAnimation(string taskID, string name){
+		
+		bool animRecognized = true;
+		
+		switch(name){
+			case "arms/gesture":{
+				animator.SetInteger("gestureIndex", 0);
+				break;
+			}
+			case "arms/shrug":{
+				animator.SetInteger("gestureIndex", 1);
+				break;
+			}
+			case "arms/wave":{
+				animator.SetInteger("gestureIndex", 2);
+				break;
+			}
+			default:{
+				animator.SetInteger("gestureIndex", -1);
+				animRecognized=false;
+				break;
+			}
+		}
+		
+		if(animRecognized){
+			SendStatus(taskID, "started");
+		}else RejectCommand(taskID, "unknown animation "+name);
 	}
+	
+	//TODO track animation success
+
 }
