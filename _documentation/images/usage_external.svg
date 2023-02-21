@@ -1,0 +1,459 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="210mm"
+   height="297mm"
+   viewBox="0 0 210 297"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.1.1 (3bf5ae0d25, 2021-09-20)"
+   sodipodi:docname="usage_external.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="1"
+     inkscape:pageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:zoom="1.1174926"
+     inkscape:cx="158.39031"
+     inkscape:cy="335.5727"
+     inkscape:window-width="1916"
+     inkscape:window-height="997"
+     inkscape:window-x="-9"
+     inkscape:window-y="1044"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs2">
+    <pattern
+       id="EMFhbasepattern"
+       patternUnits="userSpaceOnUse"
+       width="6"
+       height="6"
+       x="0"
+       y="0" />
+    <pattern
+       id="EMFhbasepattern-0"
+       patternUnits="userSpaceOnUse"
+       width="6"
+       height="6"
+       x="0"
+       y="0" />
+    <pattern
+       id="EMFhbasepattern-4"
+       patternUnits="userSpaceOnUse"
+       width="6"
+       height="6"
+       x="0"
+       y="0" />
+  </defs>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <path
+       style="fill:#cccccc;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.00000185;vector-effect:non-scaling-stroke;-inkscape-stroke:hairline;stroke-miterlimit:4;stroke-dasharray:none"
+       d="M 5.4528463,11.800264 H 120.95724 V 65.942642 H 5.4528463 Z"
+       id="path3129" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.00998568px;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 5.4528463,11.800264 H 120.95724 V 65.942642 H 5.4528463 v -54.142378 0"
+       id="path3131" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:400;font-size:4.2168px;line-height:125%;font-family:Consolas;text-align:start;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="36.46838"
+       y="20.607637"
+       id="text3137"><tspan
+         sodipodi:role="line"
+         x="36.46838"
+         y="20.607637"
+         id="tspan3135"
+         style="stroke-width:0.264583"><tspan
+           dx="0"
+           dy="0"
+           style="font-style:normal;font-variant:normal;font-weight:400;font-size:4.2168px;font-family:Consolas;fill:#000000;stroke-width:0.264583"
+           id="tspan3133">RobotEngine Application</tspan></tspan></text>
+    <path
+       style="fill:#cccccc;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.00000185;vector-effect:non-scaling-stroke;-inkscape-stroke:hairline;stroke-miterlimit:4;stroke-dasharray:none"
+       d="M 5.1532758,75.898368 H 154.89858 V 140.88519 H 5.1532758 Z"
+       id="path3139" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.00998568px;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 5.1532758,75.898368 H 154.89858 V 140.88519 H 5.1532758 v -64.986822 0"
+       id="path3141" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:400;font-size:4.2168px;line-height:125%;font-family:Consolas;text-align:start;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="57.937599"
+       y="84.705742"
+       id="text3147"><tspan
+         sodipodi:role="line"
+         x="57.937599"
+         y="84.705742"
+         id="tspan3145"
+         style="stroke-width:0.264583"><tspan
+           dx="0"
+           dy="0"
+           style="font-style:normal;font-variant:normal;font-weight:400;font-size:4.2168px;font-family:Consolas;fill:#000000;stroke-width:0.264583"
+           id="tspan3143">Control Application</tspan></tspan></text>
+    <path
+       style="fill:#cccccc;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.00000185;vector-effect:non-scaling-stroke;-inkscape-stroke:hairline;stroke-miterlimit:4;stroke-dasharray:none"
+       d="m 125.311,16.203951 h 29.44778 V 63.296435 H 125.311 Z"
+       id="path3149" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.00998568px;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 125.311,16.203951 h 29.44778 V 63.296435 H 125.311 v -47.092484 0"
+       id="path3151" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:400;font-size:4.2168px;line-height:125%;font-family:Consolas;text-align:start;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="134.22823"
+       y="25.011324"
+       id="text3157"><tspan
+         sodipodi:role="line"
+         x="134.22823"
+         y="25.011324"
+         id="tspan3155"
+         style="stroke-width:0.264583"><tspan
+           dx="0"
+           dy="0"
+           style="font-style:normal;font-variant:normal;font-weight:400;font-size:4.2168px;font-family:Consolas;fill:#000000;stroke-width:0.264583"
+           id="tspan3153">Robot</tspan></tspan></text>
+    <path
+       style="fill:#cfe7f5;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.00070004;vector-effect:non-scaling-stroke;-inkscape-stroke:hairline;stroke-miterlimit:4;stroke-dasharray:none"
+       d="m 114.75613,33.938525 h 3.82452 v -3.624803 l 6.77029,6.810236 -6.77029,6.840193 v -3.644775 h -3.82452 z"
+       id="path3159" />
+    <path
+       style="fill:none;stroke:#3465a4;stroke-width:0.00002646;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;vector-effect:non-scaling-stroke;-inkscape-stroke:hairline"
+       d="m 114.75613,33.938525 h 3.82452 v -3.624803 l 6.77029,6.810236 -6.77029,6.840193 v -3.644775 h -3.82452 v -6.380851"
+       id="path3161" />
+    <path
+       style="fill:#cfe7f5;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.264583"
+       d="M 83.580834,46.850015 H 58.277113 v -3.594846 l -8.417933,7.209663 8.417933,7.199677 v -3.614817 h 25.303721 z"
+       id="path3163" />
+    <path
+       style="fill:none;stroke:#3465a4;stroke-width:0.00002642;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;vector-effect:non-scaling-stroke;-inkscape-stroke:hairline"
+       d="M 83.580834,46.850015 H 58.277113 v -3.594846 l -8.417933,7.209663 8.417933,7.199677 v -3.614817 h 25.303721 v -7.199677"
+       id="path3165" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:400;font-size:3.52227px;line-height:125%;font-family:Consolas;text-align:start;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="56.230049"
+       y="51.603199"
+       id="text3171"><tspan
+         sodipodi:role="line"
+         x="56.230049"
+         y="51.603199"
+         id="tspan3169"
+         style="stroke-width:0.264583"><tspan
+           dx="0"
+           dy="0"
+           style="font-style:normal;font-variant:normal;font-weight:400;font-size:3.52227px;font-family:Consolas;fill:#000000;stroke-width:0.264583"
+           id="tspan3167">StatusMessage</tspan></tspan></text>
+    <path
+       style="fill:#cfe7f5;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.264583"
+       d="m 49.85918,33.039813 h 25.283752 v -3.395132 l 8.437902,6.810236 -8.437902,6.820222 V 39.860035 H 49.85918 Z"
+       id="path3173" />
+    <path
+       style="fill:none;stroke:#3465a4;stroke-width:0.00002642;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;vector-effect:non-scaling-stroke;-inkscape-stroke:hairline"
+       d="m 49.85918,33.039813 h 25.283752 v -3.395132 l 8.437902,6.810236 -8.437902,6.820222 V 39.860035 H 49.85918 v -6.820222"
+       id="path3175" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:400;font-size:3.52227px;line-height:125%;font-family:Consolas;text-align:start;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="51.047478"
+       y="37.603271"
+       id="text3181"><tspan
+         sodipodi:role="line"
+         x="51.047478"
+         y="37.603271"
+         id="tspan3179"
+         style="stroke-width:0.264583"><tspan
+           dx="0"
+           dy="0"
+           style="font-style:normal;font-variant:normal;font-weight:400;font-size:3.52227px;font-family:Consolas;fill:#000000;stroke-width:0.264583"
+           id="tspan3177">CommandMessage</tspan></tspan></text>
+    <path
+       style="fill:#cfe7f5;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.265;stroke-miterlimit:4;stroke-dasharray:none"
+       d="m 125.33097,47.409212 h -4.40368 v -3.485005 l -6.7703,7.209666 6.7703,7.219648 v -3.504975 h 4.40368 z"
+       id="path3183" />
+    <path
+       style="fill:none;stroke:#3465a4;stroke-width:0.00002642;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;vector-effect:non-scaling-stroke;-inkscape-stroke:hairline"
+       d="m 125.33097,47.409212 h -4.40368 v -3.485005 l -6.7703,7.209666 6.7703,7.219648 v -3.504975 h 4.40368 v -7.439334"
+       id="path3185" />
+    <path
+       style="fill:#eeeeee;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.00000185;vector-effect:non-scaling-stroke;-inkscape-stroke:hairline;stroke-miterlimit:4;stroke-dasharray:none"
+       d="M 12.183197,27.737415 H 49.869168 V 59.481903 H 12.183197 Z"
+       id="path3187" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.00998568px;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 12.183197,27.737415 H 49.869168 V 59.481903 H 12.183197 v -31.744488 0"
+       id="path3189" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:400;font-size:4.2168px;line-height:125%;font-family:Consolas;text-align:start;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="15.917843"
+       y="44.982689"
+       id="text3195"><tspan
+         sodipodi:role="line"
+         x="15.917843"
+         y="44.982689"
+         id="tspan3193"
+         style="stroke-width:0.264583"><tspan
+           dx="0"
+           dy="0"
+           style="font-style:normal;font-variant:normal;font-weight:400;font-size:4.2168px;font-family:Consolas;fill:#000000;stroke-width:0.264583"
+           id="tspan3191">MessageServer</tspan></tspan></text>
+    <path
+       style="fill:#eeeeee;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.00070004;vector-effect:non-scaling-stroke;-inkscape-stroke:hairline;stroke-miterlimit:4;stroke-dasharray:none"
+       d="M 83.550877,27.737415 H 114.74615 V 59.481903 H 83.550877 Z"
+       id="path3197" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.00002642;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;vector-effect:non-scaling-stroke;-inkscape-stroke:hairline"
+       d="M 83.550877,27.737415 H 114.74615 V 59.481903 H 83.550877 v -31.744488 0"
+       id="path3199" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:400;font-size:4.2168px;line-height:125%;font-family:Consolas;text-align:start;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="86.346863"
+       y="44.982689"
+       id="text3205"><tspan
+         sodipodi:role="line"
+         x="86.346863"
+         y="44.982689"
+         id="tspan3203"
+         style="stroke-width:0.264583"><tspan
+           dx="0"
+           dy="0"
+           style="font-style:normal;font-variant:normal;font-weight:400;font-size:4.2168px;font-family:Consolas;fill:#000000;stroke-width:0.264583"
+           id="tspan3201">RobotEngine</tspan></tspan></text>
+    <path
+       style="fill:#eeeeee;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.00000185;vector-effect:non-scaling-stroke;-inkscape-stroke:hairline;stroke-miterlimit:4;stroke-dasharray:none"
+       d="M 99.697729,90.267767 H 148.68749 V 134.91375 H 99.697729 Z"
+       id="path3207" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.00998568px;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 99.697729,90.267767 H 148.68749 V 134.91375 H 99.697729 v -44.645983 0"
+       id="path3209" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:400;font-size:3.52227px;line-height:125%;font-family:Consolas;text-align:start;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="106.74762"
+       y="97.62722"
+       id="text3215"><tspan
+         sodipodi:role="line"
+         x="106.74762"
+         y="97.62722"
+         id="tspan3213"
+         style="stroke-width:0.264583"><tspan
+           dx="0"
+           dy="0"
+           style="font-style:normal;font-variant:normal;font-weight:400;font-size:3.52227px;font-family:Consolas;fill:#000000;stroke-width:0.264583"
+           id="tspan3211">Nonverbal Behavior</tspan></tspan></text>
+    <path
+       style="fill:#eeeeee;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.00070004;vector-effect:non-scaling-stroke;-inkscape-stroke:hairline;stroke-miterlimit:4;stroke-dasharray:none"
+       d="M 56.54959,90.247796 H 95.314012 V 108.88108 H 56.54959 Z"
+       id="path3217" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.00002642;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;vector-effect:non-scaling-stroke;-inkscape-stroke:hairline"
+       d="M 56.54959,90.247796 H 95.314012 V 108.88108 H 56.54959 v -18.633284 0"
+       id="path3219" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:400;font-size:3.52227px;line-height:125%;font-family:Consolas;text-align:start;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="62.361256"
+       y="100.71279"
+       id="text3225"><tspan
+         sodipodi:role="line"
+         x="62.361256"
+         y="100.71279"
+         id="tspan3223"
+         style="stroke-width:0.264583"><tspan
+           dx="0"
+           dy="0"
+           style="font-style:normal;font-variant:normal;font-weight:400;font-size:3.52227px;font-family:Consolas;fill:#000000;stroke-width:0.264583"
+           id="tspan3221">Dialog Planner</tspan></tspan></text>
+    <path
+       style="fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.264583"
+       d="m 105.26974,103.68853 h 38.50479 v 6.16116 h -38.50479 z"
+       id="path3227" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.00002642;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;vector-effect:non-scaling-stroke;-inkscape-stroke:hairline"
+       d="m 105.26974,103.68853 h 38.50479 v 6.16116 h -38.50479 v -6.16116 0"
+       id="path3229" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:400;font-size:3.52227px;line-height:125%;font-family:Consolas;text-align:start;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="116.77325"
+       y="107.91248"
+       id="text3235"><tspan
+         sodipodi:role="line"
+         x="116.77325"
+         y="107.91248"
+         id="tspan3233"
+         style="stroke-width:0.264583"><tspan
+           dx="0"
+           dy="0"
+           style="font-style:normal;font-variant:normal;font-weight:400;font-size:3.52227px;font-family:Consolas;fill:#000000;stroke-width:0.264583"
+           id="tspan3231">Blinking</tspan></tspan></text>
+    <path
+       style="fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.264583"
+       d="m 105.26974,113.64425 h 38.50479 v 6.16117 h -38.50479 z"
+       id="path3237" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.00002642;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;vector-effect:non-scaling-stroke;-inkscape-stroke:hairline"
+       d="m 105.26974,113.64425 h 38.50479 v 6.16117 h -38.50479 v -6.16117 0"
+       id="path3239" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:400;font-size:3.52227px;line-height:125%;font-family:Consolas;text-align:start;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="120.64769"
+       y="117.86821"
+       id="text3245"><tspan
+         sodipodi:role="line"
+         x="120.64769"
+         y="117.86821"
+         id="tspan3243"
+         style="stroke-width:0.264583"><tspan
+           dx="0"
+           dy="0"
+           style="font-style:normal;font-variant:normal;font-weight:400;font-size:3.52227px;font-family:Consolas;fill:#000000;stroke-width:0.264583"
+           id="tspan3241">Gaze</tspan></tspan></text>
+    <path
+       style="fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.00070004;vector-effect:non-scaling-stroke;-inkscape-stroke:hairline;stroke-miterlimit:4;stroke-dasharray:none"
+       d="m 105.26974,123.86959 h 38.50479 v 6.17115 h -38.50479 z"
+       id="path3247" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.00002642;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;vector-effect:non-scaling-stroke;-inkscape-stroke:hairline"
+       d="m 105.26974,123.86959 h 38.50479 v 6.17115 h -38.50479 v -6.17115 0"
+       id="path3249" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:400;font-size:3.52227px;line-height:125%;font-family:Consolas;text-align:start;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="108.04575"
+       y="128.10352"
+       id="text3255"><tspan
+         sodipodi:role="line"
+         x="108.04575"
+         y="128.10352"
+         id="tspan3253"
+         style="stroke-width:0.264583"><tspan
+           dx="0"
+           dy="0"
+           style="font-style:normal;font-variant:normal;font-weight:400;font-size:3.52227px;font-family:Consolas;fill:#000000;stroke-width:0.264583"
+           id="tspan3251">Facial Expression</tspan></tspan></text>
+    <path
+       style="fill:#eeeeee;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.00000185;vector-effect:non-scaling-stroke;-inkscape-stroke:hairline;stroke-miterlimit:4;stroke-dasharray:none"
+       d="m 56.250018,114.75266 h 38.764424 v 19.97137 H 56.250018 Z"
+       id="path3257" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.00998568px;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 56.250018,114.75266 h 38.764424 v 19.97137 H 56.250018 v -19.97137 0"
+       id="path3259" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:400;font-size:3.52227px;line-height:117.653%;font-family:Consolas;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="75.618919"
+       y="123.81966"
+       id="text3269"><tspan
+         sodipodi:role="line"
+         x="75.618919"
+         y="123.81966"
+         id="tspan3263"
+         style="stroke-width:0.264583"><tspan
+           dx="0"
+           dy="0"
+           style="font-style:normal;font-variant:normal;font-weight:400;font-size:3.52227px;font-family:Consolas;fill:#000000;stroke-width:0.264583"
+           id="tspan3261">User Input</tspan></tspan><tspan
+         sodipodi:role="line"
+         x="75.618919"
+         y="127.96372"
+         id="tspan3267"
+         style="stroke-width:0.264583"><tspan
+           dx="0"
+           dy="0"
+           style="font-style:normal;font-variant:normal;font-weight:400;font-size:3.52227px;font-family:Consolas;fill:#000000;stroke-width:0.264583"
+           id="tspan3265">Handling</tspan></tspan></text>
+    <path
+       style="fill:#eeeeee;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.00000185;vector-effect:non-scaling-stroke;-inkscape-stroke:hairline;stroke-miterlimit:4;stroke-dasharray:none"
+       d="M 12.193183,93.193572 H 49.309968 V 124.92807 H 12.193183 Z"
+       id="path3271" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.00998568px;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 12.193183,93.193572 H 49.309968 V 124.92807 H 12.193183 v -31.734498 0"
+       id="path3273" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:400;font-size:4.2168px;line-height:125%;font-family:Consolas;text-align:start;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="15.628258"
+       y="110.43885"
+       id="text3279"><tspan
+         sodipodi:role="line"
+         x="15.628258"
+         y="110.43885"
+         id="tspan3277"
+         style="stroke-width:0.264583"><tspan
+           dx="0"
+           dy="0"
+           style="font-style:normal;font-variant:normal;font-weight:400;font-size:4.2168px;font-family:Consolas;fill:#000000;stroke-width:0.264583"
+           id="tspan3275">MessageClient</tspan></tspan></text>
+    <path
+       style="fill:#cfe7f5;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.264583"
+       d="m 35.60961,59.421988 v 25.313709 h -3.594846 l 7.179707,8.41793 7.209663,-8.41793 H 42.789317 V 59.421988 Z"
+       id="path3281" />
+    <path
+       style="fill:none;stroke:#3465a4;stroke-width:0.00002642;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;vector-effect:non-scaling-stroke;-inkscape-stroke:hairline"
+       d="m 35.60961,59.421988 v 25.313709 h -3.594846 l 7.179707,8.41793 7.209663,-8.41793 H 42.789317 V 59.421988 H 35.60961"
+       id="path3283" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:400;font-size:3.52227px;line-height:125%;font-family:Consolas;text-align:start;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       transform="rotate(-90)"
+       x="-86.792755"
+       y="40.362797"
+       id="text3289"><tspan
+         sodipodi:role="line"
+         x="-86.792755"
+         y="40.362797"
+         id="tspan3287"
+         style="stroke-width:0.264583"><tspan
+           dx="0"
+           dy="0"
+           style="font-style:normal;font-variant:normal;font-weight:400;font-size:3.52227px;font-family:Consolas;fill:#000000;stroke-width:0.264583"
+           id="tspan3285">StatusMessage</tspan></tspan></text>
+    <path
+       style="fill:#cfe7f5;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.264583"
+       d="m 20.471314,93.203557 v -25.28375 h -3.395132 l 6.820222,-8.437904 6.830207,8.437904 h -3.415104 v 25.28375 z"
+       id="path3291" />
+    <path
+       style="fill:none;stroke:#3465a4;stroke-width:0.00002642;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;vector-effect:non-scaling-stroke;-inkscape-stroke:hairline"
+       d="m 20.471314,93.203557 v -25.28375 h -3.395132 l 6.820222,-8.437904 6.830207,8.437904 h -3.415104 v 25.28375 h -6.840193"
+       id="path3293" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:400;font-size:3.52227px;line-height:125%;font-family:Consolas;text-align:start;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       transform="rotate(-90)"
+       x="-92.015266"
+       y="25.054743"
+       id="text3299"><tspan
+         sodipodi:role="line"
+         x="-92.015266"
+         y="25.054743"
+         id="tspan3297"
+         style="stroke-width:0.264583"><tspan
+           dx="0"
+           dy="0"
+           style="font-style:normal;font-variant:normal;font-weight:400;font-size:3.52227px;font-family:Consolas;fill:#000000;stroke-width:0.264583"
+           id="tspan3295">CommandMessage</tspan></tspan></text>
+  </g>
+</svg>
