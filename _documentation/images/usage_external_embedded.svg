@@ -2,12 +2,12 @@
 <!-- Created with Inkscape (http://www.inkscape.org/) -->
 
 <svg
-   width="210mm"
-   height="297mm"
-   viewBox="0 0 210 297"
+   width="149.8082mm"
+   height="142.13545mm"
+   viewBox="0 0 149.8082 142.13545"
    version="1.1"
    id="svg5"
-   inkscape:version="1.1.1 (3bf5ae0d25, 2021-09-20)"
+   inkscape:version="1.1 (c68e22c387, 2021-05-23)"
    sodipodi:docname="usage_external_embedded.svg"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
@@ -24,14 +24,18 @@
      inkscape:document-units="mm"
      showgrid="false"
      inkscape:zoom="1.1174926"
-     inkscape:cx="395.52835"
-     inkscape:cy="377.63114"
-     inkscape:window-width="1916"
-     inkscape:window-height="997"
-     inkscape:window-x="-9"
-     inkscape:window-y="1044"
-     inkscape:window-maximized="0"
-     inkscape:current-layer="layer1" />
+     inkscape:cx="81.879737"
+     inkscape:cy="295.30397"
+     inkscape:window-width="1920"
+     inkscape:window-height="986"
+     inkscape:window-x="-11"
+     inkscape:window-y="2149"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0" />
   <defs
      id="defs2">
     <pattern
@@ -66,13 +70,14 @@
   <g
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
-     id="layer1">
+     id="layer1"
+     transform="translate(-44.899081,-21.744221)">
     <path
-       style="fill:#cccccc;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.00070004;vector-effect:non-scaling-stroke;-inkscape-stroke:hairline;stroke-miterlimit:4;stroke-dasharray:none"
+       style="vector-effect:non-scaling-stroke;fill:#cccccc;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.00070004;stroke-miterlimit:4;stroke-dasharray:none;-inkscape-stroke:hairline"
        d="M 44.899081,21.744221 H 194.70728 V 88.880673 H 44.899081 Z"
        id="path3751" />
     <path
-       style="fill:none;stroke:#000000;stroke-width:0.00002643;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;vector-effect:non-scaling-stroke;-inkscape-stroke:hairline"
+       style="vector-effect:non-scaling-stroke;fill:none;stroke:#000000;stroke-width:2.643e-05;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;-inkscape-stroke:hairline"
        d="M 44.899081,21.744221 H 194.70728 V 88.880673 H 44.899081 v -67.136452 0"
        id="path3753" />
     <text
@@ -91,11 +96,11 @@
            style="font-style:normal;font-variant:normal;font-weight:400;font-size:4.23333px;font-family:Consolas;fill:#000000;stroke-width:0.264583"
            id="tspan3755">Robot</tspan></tspan></text>
     <path
-       style="fill:#dddddd;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.00070004;vector-effect:non-scaling-stroke;-inkscape-stroke:hairline;stroke-miterlimit:4;stroke-dasharray:none"
+       style="vector-effect:non-scaling-stroke;fill:#dddddd;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.00070004;stroke-miterlimit:4;stroke-dasharray:none;-inkscape-stroke:hairline"
        d="M 49.005195,36.740027 H 157.96206 V 85.813578 H 49.005195 Z"
        id="path3761" />
     <path
-       style="fill:none;stroke:#000000;stroke-width:0.00002643;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;vector-effect:non-scaling-stroke;-inkscape-stroke:hairline"
+       style="vector-effect:non-scaling-stroke;fill:none;stroke:#000000;stroke-width:2.643e-05;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;-inkscape-stroke:hairline"
        d="M 49.005195,36.740027 H 157.96206 V 85.813578 H 49.005195 v -49.073551 0"
        id="path3763" />
     <text
@@ -114,11 +119,11 @@
            style="font-style:normal;font-variant:normal;font-weight:400;font-size:4.23333px;font-family:Consolas;fill:#000000;stroke-width:0.264583"
            id="tspan3765">RobotEngine Module</tspan></tspan></text>
     <path
-       style="fill:#cccccc;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.00070004;vector-effect:non-scaling-stroke;-inkscape-stroke:hairline;stroke-miterlimit:4;stroke-dasharray:none"
+       style="vector-effect:non-scaling-stroke;fill:#cccccc;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.00070004;stroke-miterlimit:4;stroke-dasharray:none;-inkscape-stroke:hairline"
        d="M 44.899081,98.871218 H 194.70728 V 163.87968 H 44.899081 Z"
        id="path3771" />
     <path
-       style="fill:none;stroke:#000000;stroke-width:0.00002643;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;vector-effect:non-scaling-stroke;-inkscape-stroke:hairline"
+       style="vector-effect:non-scaling-stroke;fill:none;stroke:#000000;stroke-width:2.643e-05;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;-inkscape-stroke:hairline"
        d="M 44.899081,98.871218 H 194.70728 V 163.87968 H 44.899081 v -65.008462 0"
        id="path3773" />
     <text
@@ -137,19 +142,19 @@
            style="font-style:normal;font-variant:normal;font-weight:400;font-size:4.23333px;font-family:Consolas;fill:#000000;stroke-width:0.264583"
            id="tspan3775">Control Application</tspan></tspan></text>
     <path
-       style="fill:#cfe7f5;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.00070004;vector-effect:non-scaling-stroke;-inkscape-stroke:hairline;stroke-miterlimit:4;stroke-dasharray:none"
+       style="vector-effect:non-scaling-stroke;fill:#cfe7f5;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.00070004;stroke-miterlimit:4;stroke-dasharray:none;-inkscape-stroke:hairline"
        d="m 154.5453,56.990859 h 16.95395 v -3.756445 l 8.80167,6.813552 -8.80167,6.823541 V 63.105071 H 154.5453 Z"
        id="path3781" />
     <path
-       style="fill:none;stroke:#3465a4;stroke-width:0.00002643;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;vector-effect:non-scaling-stroke;-inkscape-stroke:hairline"
+       style="vector-effect:non-scaling-stroke;fill:none;stroke:#3465a4;stroke-width:2.643e-05;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;-inkscape-stroke:hairline"
        d="m 154.5453,56.990859 h 16.95395 v -3.756445 l 8.80167,6.813552 -8.80167,6.823541 V 63.105071 H 154.5453 v -6.114212"
        id="path3783" />
     <path
-       style="fill:#cfe7f5;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.00070004;vector-effect:non-scaling-stroke;-inkscape-stroke:hairline;stroke-miterlimit:4;stroke-dasharray:none"
+       style="vector-effect:non-scaling-stroke;fill:#cfe7f5;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.00070004;stroke-miterlimit:4;stroke-dasharray:none;-inkscape-stroke:hairline"
        d="M 123.31486,69.818717 H 98.008812 v -3.596595 l -8.422029,7.183199 8.422029,7.213174 v -3.616576 h 25.306048 z"
        id="path3785" />
     <path
-       style="fill:none;stroke:#3465a4;stroke-width:0.00002643;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;vector-effect:non-scaling-stroke;-inkscape-stroke:hairline"
+       style="vector-effect:non-scaling-stroke;fill:none;stroke:#3465a4;stroke-width:2.643e-05;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;-inkscape-stroke:hairline"
        d="M 123.31486,69.818717 H 98.008812 v -3.596595 l -8.422029,7.183199 8.422029,7.213174 v -3.616576 h 25.306048 v -7.183202"
        id="path3787" />
     <text
@@ -168,11 +173,11 @@
            style="font-style:normal;font-variant:normal;font-weight:400;font-size:3.52227px;font-family:Consolas;fill:#000000;stroke-width:0.264583"
            id="tspan3789">StatusMessage</tspan></tspan></text>
     <path
-       style="fill:#cfe7f5;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.00070004;vector-effect:non-scaling-stroke;-inkscape-stroke:hairline;stroke-miterlimit:4;stroke-dasharray:none"
+       style="vector-effect:non-scaling-stroke;fill:#cfe7f5;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.00070004;stroke-miterlimit:4;stroke-dasharray:none;-inkscape-stroke:hairline"
        d="M 89.586783,56.021775 H 114.87285 V 52.615 l 8.44201,6.823541 -8.44201,6.813553 V 62.835328 H 89.586783 Z"
        id="path3795" />
     <path
-       style="fill:none;stroke:#3465a4;stroke-width:0.00002643;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;vector-effect:non-scaling-stroke;-inkscape-stroke:hairline"
+       style="vector-effect:non-scaling-stroke;fill:none;stroke:#3465a4;stroke-width:2.643e-05;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;-inkscape-stroke:hairline"
        d="M 89.586783,56.021775 H 114.87285 V 52.615 l 8.44201,6.823541 -8.44201,6.813553 V 62.835328 H 89.586783 v -6.813553"
        id="path3797" />
     <text
@@ -191,19 +196,19 @@
            style="font-style:normal;font-variant:normal;font-weight:400;font-size:3.52227px;font-family:Consolas;fill:#000000;stroke-width:0.264583"
            id="tspan3799">CommandMessage</tspan></tspan></text>
     <path
-       style="fill:#cfe7f5;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.00070004;vector-effect:non-scaling-stroke;-inkscape-stroke:hairline;stroke-miterlimit:4;stroke-dasharray:none"
+       style="vector-effect:non-scaling-stroke;fill:#cfe7f5;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.00070004;stroke-miterlimit:4;stroke-dasharray:none;-inkscape-stroke:hairline"
        d="m 180.30092,70.787801 h -16.45443 v -3.936275 l -9.90063,7.213171 9.90063,7.203183 v -3.946265 h 16.45443 z"
        id="path3805" />
     <path
-       style="fill:none;stroke:#3465a4;stroke-width:0.00002643;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;vector-effect:non-scaling-stroke;-inkscape-stroke:hairline"
+       style="vector-effect:non-scaling-stroke;fill:none;stroke:#3465a4;stroke-width:2.643e-05;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;-inkscape-stroke:hairline"
        d="m 180.30092,70.787801 h -16.45443 v -3.936275 l -9.90063,7.213171 9.90063,7.203183 v -3.946265 h 16.45443 v -6.533814"
        id="path3807" />
     <path
-       style="fill:#eeeeee;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.00070004;vector-effect:non-scaling-stroke;-inkscape-stroke:hairline;stroke-miterlimit:4;stroke-dasharray:none"
+       style="vector-effect:non-scaling-stroke;fill:#eeeeee;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.00070004;stroke-miterlimit:4;stroke-dasharray:none;-inkscape-stroke:hairline"
        d="M 51.962396,50.696816 H 89.656715 V 82.416791 H 51.962396 Z"
        id="path3809" />
     <path
-       style="fill:none;stroke:#000000;stroke-width:0.00002643;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;vector-effect:non-scaling-stroke;-inkscape-stroke:hairline"
+       style="vector-effect:non-scaling-stroke;fill:none;stroke:#000000;stroke-width:2.643e-05;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;-inkscape-stroke:hairline"
        d="M 51.962396,50.696816 H 89.656715 V 82.416791 H 51.962396 v -31.719975 0"
        id="path3811" />
     <text
@@ -222,11 +227,11 @@
            style="font-style:normal;font-variant:normal;font-weight:400;font-size:4.23333px;font-family:Consolas;fill:#000000;stroke-width:0.264583"
            id="tspan3813">MessageServer</tspan></tspan></text>
     <path
-       style="fill:#eeeeee;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.00070004;vector-effect:non-scaling-stroke;-inkscape-stroke:hairline;stroke-miterlimit:4;stroke-dasharray:none"
+       style="vector-effect:non-scaling-stroke;fill:#eeeeee;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.00070004;stroke-miterlimit:4;stroke-dasharray:none;-inkscape-stroke:hairline"
        d="m 123.29488,50.696816 h 31.19047 v 31.719975 h -31.19047 z"
        id="path3819" />
     <path
-       style="fill:none;stroke:#000000;stroke-width:0.00002643;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;vector-effect:non-scaling-stroke;-inkscape-stroke:hairline"
+       style="vector-effect:non-scaling-stroke;fill:none;stroke:#000000;stroke-width:2.643e-05;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;-inkscape-stroke:hairline"
        d="m 123.29488,50.696816 h 31.19047 v 31.719975 h -31.19047 v -31.719975 0"
        id="path3821" />
     <text
@@ -245,11 +250,11 @@
            style="font-style:normal;font-variant:normal;font-weight:400;font-size:4.23333px;font-family:Consolas;fill:#000000;stroke-width:0.264583"
            id="tspan3823">RobotEngine</tspan></tspan></text>
     <path
-       style="fill:#eeeeee;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.00070004;vector-effect:non-scaling-stroke;-inkscape-stroke:hairline;stroke-miterlimit:4;stroke-dasharray:none"
+       style="vector-effect:non-scaling-stroke;fill:#eeeeee;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.00070004;stroke-miterlimit:4;stroke-dasharray:none;-inkscape-stroke:hairline"
        d="m 139.45958,113.21764 h 48.98363 v 44.67771 h -48.98363 z"
        id="path3829" />
     <path
-       style="fill:none;stroke:#000000;stroke-width:0.00002643;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;vector-effect:non-scaling-stroke;-inkscape-stroke:hairline"
+       style="vector-effect:non-scaling-stroke;fill:none;stroke:#000000;stroke-width:2.643e-05;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;-inkscape-stroke:hairline"
        d="m 139.45958,113.21764 h 48.98363 v 44.67771 h -48.98363 v -44.67771 0"
        id="path3831" />
     <text
@@ -268,11 +273,11 @@
            style="font-style:normal;font-variant:normal;font-weight:400;font-size:3.52227px;font-family:Consolas;fill:#000000;stroke-width:0.264583"
            id="tspan3833">Nonverbal Behavior</tspan></tspan></text>
     <path
-       style="fill:#eeeeee;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.00070004;vector-effect:non-scaling-stroke;-inkscape-stroke:hairline;stroke-miterlimit:4;stroke-dasharray:none"
+       style="vector-effect:non-scaling-stroke;fill:#eeeeee;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.00070004;stroke-miterlimit:4;stroke-dasharray:none;-inkscape-stroke:hairline"
        d="M 96.280448,113.19766 H 135.05375 V 131.85 H 96.280448 Z"
        id="path3839" />
     <path
-       style="fill:none;stroke:#000000;stroke-width:0.00002643;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;vector-effect:non-scaling-stroke;-inkscape-stroke:hairline"
+       style="vector-effect:non-scaling-stroke;fill:none;stroke:#000000;stroke-width:2.643e-05;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;-inkscape-stroke:hairline"
        d="M 96.280448,113.19766 H 135.05375 V 131.85 H 96.280448 v -18.65234 0"
        id="path3841" />
     <text
@@ -291,11 +296,11 @@
            style="font-style:normal;font-variant:normal;font-weight:400;font-size:3.52227px;font-family:Consolas;fill:#000000;stroke-width:0.264583"
            id="tspan3843">Dialogue Planner</tspan></tspan></text>
     <path
-       style="fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.00070004;vector-effect:non-scaling-stroke;-inkscape-stroke:hairline;stroke-miterlimit:4;stroke-dasharray:none"
+       style="vector-effect:non-scaling-stroke;fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.00070004;stroke-miterlimit:4;stroke-dasharray:none;-inkscape-stroke:hairline"
        d="m 145.06427,126.64493 h 38.50356 v 6.17416 h -38.50356 z"
        id="path3849" />
     <path
-       style="fill:none;stroke:#000000;stroke-width:0.00002643;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;vector-effect:non-scaling-stroke;-inkscape-stroke:hairline"
+       style="vector-effect:non-scaling-stroke;fill:none;stroke:#000000;stroke-width:2.643e-05;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;-inkscape-stroke:hairline"
        d="m 145.06427,126.64493 h 38.50356 v 6.17416 h -38.50356 v -6.17416 0"
        id="path3851" />
     <text
@@ -314,11 +319,11 @@
            style="font-style:normal;font-variant:normal;font-weight:400;font-size:3.52227px;font-family:Consolas;fill:#000000;stroke-width:0.264583"
            id="tspan3853">Blinking</tspan></tspan></text>
     <path
-       style="fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.00070004;vector-effect:non-scaling-stroke;-inkscape-stroke:hairline;stroke-miterlimit:4;stroke-dasharray:none"
+       style="vector-effect:non-scaling-stroke;fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.00070004;stroke-miterlimit:4;stroke-dasharray:none;-inkscape-stroke:hairline"
        d="m 145.06427,136.6055 h 38.50356 v 6.16417 h -38.50356 z"
        id="path3859" />
     <path
-       style="fill:none;stroke:#000000;stroke-width:0.00002643;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;vector-effect:non-scaling-stroke;-inkscape-stroke:hairline"
+       style="vector-effect:non-scaling-stroke;fill:none;stroke:#000000;stroke-width:2.643e-05;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;-inkscape-stroke:hairline"
        d="m 145.06427,136.6055 h 38.50356 v 6.16417 h -38.50356 v -6.16417 0"
        id="path3861" />
     <text
@@ -337,11 +342,11 @@
            style="font-style:normal;font-variant:normal;font-weight:400;font-size:3.52227px;font-family:Consolas;fill:#000000;stroke-width:0.264583"
            id="tspan3863">Gaze</tspan></tspan></text>
     <path
-       style="fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.00070004;vector-effect:non-scaling-stroke;-inkscape-stroke:hairline;stroke-miterlimit:4;stroke-dasharray:none"
+       style="vector-effect:non-scaling-stroke;fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.00070004;stroke-miterlimit:4;stroke-dasharray:none;-inkscape-stroke:hairline"
        d="m 145.06427,146.84581 h 38.50356 v 6.16416 h -38.50356 z"
        id="path3869" />
     <path
-       style="fill:none;stroke:#000000;stroke-width:0.00002643;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;vector-effect:non-scaling-stroke;-inkscape-stroke:hairline"
+       style="vector-effect:non-scaling-stroke;fill:none;stroke:#000000;stroke-width:2.643e-05;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;-inkscape-stroke:hairline"
        d="m 145.06427,146.84581 h 38.50356 v 6.16416 h -38.50356 v -6.16416 0"
        id="path3871" />
     <text
@@ -360,11 +365,11 @@
            style="font-style:normal;font-variant:normal;font-weight:400;font-size:3.52227px;font-family:Consolas;fill:#000000;stroke-width:0.264583"
            id="tspan3873">Facial Expression</tspan></tspan></text>
     <path
-       style="fill:#eeeeee;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.00070004;vector-effect:non-scaling-stroke;-inkscape-stroke:hairline;stroke-miterlimit:4;stroke-dasharray:none"
+       style="vector-effect:non-scaling-stroke;fill:#eeeeee;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.00070004;stroke-miterlimit:4;stroke-dasharray:none;-inkscape-stroke:hairline"
        d="M 96.000712,137.71445 H 134.784 v 19.98109 H 96.000712 Z"
        id="path3879" />
     <path
-       style="fill:none;stroke:#000000;stroke-width:0.00002643;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;vector-effect:non-scaling-stroke;-inkscape-stroke:hairline"
+       style="vector-effect:non-scaling-stroke;fill:none;stroke:#000000;stroke-width:2.643e-05;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;-inkscape-stroke:hairline"
        d="M 96.000712,137.71445 H 134.784 v 19.98109 H 96.000712 v -19.98109 0"
        id="path3881" />
     <text
@@ -384,7 +389,7 @@
            id="tspan3883">User Input</tspan></tspan><tspan
          sodipodi:role="line"
          x="115.37433"
-         y="150.93193"
+         y="150.93192"
          id="tspan3889"
          style="stroke-width:0.264583"><tspan
            dx="0"
@@ -392,11 +397,11 @@
            style="font-style:normal;font-variant:normal;font-weight:400;font-size:3.52227px;font-family:Consolas;fill:#000000;stroke-width:0.264583"
            id="tspan3887">Handling</tspan></tspan></text>
     <path
-       style="fill:#eeeeee;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.00070004;vector-effect:non-scaling-stroke;-inkscape-stroke:hairline;stroke-miterlimit:4;stroke-dasharray:none"
+       style="vector-effect:non-scaling-stroke;fill:#eeeeee;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.00070004;stroke-miterlimit:4;stroke-dasharray:none;-inkscape-stroke:hairline"
        d="m 51.942414,116.16485 h 37.114869 v 31.71998 H 51.942414 Z"
        id="path3893" />
     <path
-       style="fill:none;stroke:#000000;stroke-width:0.00002643;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;vector-effect:non-scaling-stroke;-inkscape-stroke:hairline"
+       style="vector-effect:non-scaling-stroke;fill:none;stroke:#000000;stroke-width:2.643e-05;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;-inkscape-stroke:hairline"
        d="m 51.942414,116.16485 h 37.114869 v 31.71998 H 51.942414 v -31.71998 0"
        id="path3895" />
     <text
@@ -415,11 +420,11 @@
            style="font-style:normal;font-variant:normal;font-weight:400;font-size:4.23333px;font-family:Consolas;fill:#000000;stroke-width:0.264583"
            id="tspan3897">MessageClient</tspan></tspan></text>
     <path
-       style="fill:#cfe7f5;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.00070004;vector-effect:non-scaling-stroke;-inkscape-stroke:hairline;stroke-miterlimit:4;stroke-dasharray:none"
+       style="vector-effect:non-scaling-stroke;fill:#cfe7f5;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.00070004;stroke-miterlimit:4;stroke-dasharray:none;-inkscape-stroke:hairline"
        d="m 75.350258,82.39681 v 25.30605 h -3.596595 l 7.19319,8.42202 7.203183,-8.42202 H 82.53346 V 82.39681 Z"
        id="path3903" />
     <path
-       style="fill:none;stroke:#3465a4;stroke-width:0.00002643;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;vector-effect:non-scaling-stroke;-inkscape-stroke:hairline"
+       style="vector-effect:non-scaling-stroke;fill:none;stroke:#3465a4;stroke-width:2.643e-05;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;-inkscape-stroke:hairline"
        d="m 75.350258,82.39681 v 25.30605 h -3.596595 l 7.19319,8.42202 7.203183,-8.42202 H 82.53346 V 82.39681 h -7.183202"
        id="path3905" />
     <text
@@ -439,11 +444,11 @@
            style="font-style:normal;font-variant:normal;font-weight:400;font-size:3.52227px;font-family:Consolas;fill:#000000;stroke-width:0.264583"
            id="tspan3907">StatusMessage</tspan></tspan></text>
     <path
-       style="fill:#cfe7f5;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.00070004;vector-effect:non-scaling-stroke;-inkscape-stroke:hairline;stroke-miterlimit:4;stroke-dasharray:none"
+       style="vector-effect:non-scaling-stroke;fill:#cfe7f5;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.00070004;stroke-miterlimit:4;stroke-dasharray:none;-inkscape-stroke:hairline"
        d="M 60.194603,116.16485 V 90.878783 h -3.406775 l 6.823541,-8.44201 6.823541,8.44201 h -3.426756 v 25.286067 z"
        id="path3913" />
     <path
-       style="fill:none;stroke:#3465a4;stroke-width:0.00002643;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;vector-effect:non-scaling-stroke;-inkscape-stroke:hairline"
+       style="vector-effect:non-scaling-stroke;fill:none;stroke:#3465a4;stroke-width:2.643e-05;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;-inkscape-stroke:hairline"
        d="M 60.194603,116.16485 V 90.878783 h -3.406775 l 6.823541,-8.44201 6.823541,8.44201 h -3.426756 v 25.286067 h -6.813551"
        id="path3915" />
     <text

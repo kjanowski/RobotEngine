@@ -2,12 +2,12 @@
 <!-- Created with Inkscape (http://www.inkscape.org/) -->
 
 <svg
-   width="210mm"
-   height="297mm"
-   viewBox="0 0 210 297"
+   width="152.94965mm"
+   height="73.953674mm"
+   viewBox="0 0 152.94965 73.953674"
    version="1.1"
    id="svg5"
-   inkscape:version="1.1.1 (3bf5ae0d25, 2021-09-20)"
+   inkscape:version="1.1 (c68e22c387, 2021-05-23)"
    sodipodi:docname="protocol_components.svg"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
@@ -24,14 +24,18 @@
      inkscape:document-units="mm"
      showgrid="false"
      inkscape:zoom="1.5803732"
-     inkscape:cx="380.28993"
-     inkscape:cy="224.63049"
-     inkscape:window-width="1916"
-     inkscape:window-height="997"
-     inkscape:window-x="-9"
-     inkscape:window-y="1044"
-     inkscape:window-maximized="0"
-     inkscape:current-layer="layer1" />
+     inkscape:cx="180.65353"
+     inkscape:cy="173.37677"
+     inkscape:window-width="1920"
+     inkscape:window-height="986"
+     inkscape:window-x="-11"
+     inkscape:window-y="2149"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0" />
   <defs
      id="defs2">
     <pattern
@@ -52,18 +56,19 @@
   <g
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
-     id="layer1">
+     id="layer1"
+     transform="translate(-25.985158,-13.583479)">
     <path
-       style="fill:#cccccc;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.00070004;vector-effect:non-scaling-stroke;-inkscape-stroke:hairline;stroke-miterlimit:4;stroke-dasharray:none"
+       style="vector-effect:non-scaling-stroke;fill:#cccccc;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.00070004;stroke-miterlimit:4;stroke-dasharray:none;-inkscape-stroke:hairline"
        d="M 136.01064,13.583479 H 178.9348 V 87.537156 H 136.01064 Z"
        id="path827" />
     <path
-       style="fill:none;stroke:#000000;stroke-width:0.00002631;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;vector-effect:non-scaling-stroke;-inkscape-stroke:hairline"
+       style="vector-effect:non-scaling-stroke;fill:none;stroke:#000000;stroke-width:2.631e-05;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;-inkscape-stroke:hairline"
        d="m 136.01064,13.583479 h 42.92416 v 73.953677 h -42.92416 v -73.953677 0"
        id="path829" />
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:400;font-size:4.20026px;line-height:125%;font-family:Consolas;text-align:start;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.00070004;vector-effect:non-scaling-stroke;-inkscape-stroke:hairline;stroke-miterlimit:4;stroke-dasharray:none"
+       style="font-style:normal;font-variant:normal;font-weight:400;font-size:4.20026px;line-height:125%;font-family:Consolas;text-align:start;letter-spacing:0px;word-spacing:0px;text-anchor:start;vector-effect:non-scaling-stroke;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.00070004;stroke-miterlimit:4;stroke-dasharray:none;-inkscape-stroke:hairline"
        x="151.67456"
        y="22.355284"
        id="text835"><tspan
@@ -71,22 +76,22 @@
          x="151.67456"
          y="22.355284"
          id="tspan833"
-         style="stroke-width:0.00070004;stroke:none;vector-effect:non-scaling-stroke;-inkscape-stroke:hairline;stroke-miterlimit:4;stroke-dasharray:none"><tspan
+         style="vector-effect:non-scaling-stroke;stroke:none;stroke-width:0.00070004;stroke-miterlimit:4;stroke-dasharray:none;-inkscape-stroke:hairline"><tspan
            dx="0"
            dy="0"
-           style="font-style:normal;font-variant:normal;font-weight:400;font-size:4.20026px;font-family:Consolas;fill:#000000;stroke-width:0.00070004;stroke:none;vector-effect:non-scaling-stroke;-inkscape-stroke:hairline;stroke-miterlimit:4;stroke-dasharray:none"
+           style="font-style:normal;font-variant:normal;font-weight:400;font-size:4.20026px;font-family:Consolas;vector-effect:non-scaling-stroke;fill:#000000;stroke:none;stroke-width:0.00070004;stroke-miterlimit:4;stroke-dasharray:none;-inkscape-stroke:hairline"
            id="tspan831">Robot</tspan></tspan></text>
     <path
-       style="fill:#eeeeee;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.00070004;vector-effect:non-scaling-stroke;-inkscape-stroke:hairline;stroke-miterlimit:4;stroke-dasharray:none"
+       style="vector-effect:non-scaling-stroke;fill:#eeeeee;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.00070004;stroke-miterlimit:4;stroke-dasharray:none;-inkscape-stroke:hairline"
        d="m 142.11709,29.336924 h 31.07924 v 6.136285 h -31.07924 z"
        id="path837" />
     <path
-       style="fill:none;stroke:#000000;stroke-width:0.00002631;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;vector-effect:non-scaling-stroke;-inkscape-stroke:hairline"
+       style="vector-effect:non-scaling-stroke;fill:none;stroke:#000000;stroke-width:2.631e-05;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;-inkscape-stroke:hairline"
        d="m 142.11709,29.336924 h 31.07924 v 6.136285 h -31.07924 v -6.136285 0"
        id="path839" />
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:400;font-size:3.50573px;line-height:125%;font-family:Consolas;text-align:start;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.00070004;vector-effect:non-scaling-stroke;-inkscape-stroke:hairline;stroke-miterlimit:4;stroke-dasharray:none"
+       style="font-style:normal;font-variant:normal;font-weight:400;font-size:3.50573px;line-height:125%;font-family:Consolas;text-align:start;letter-spacing:0px;word-spacing:0px;text-anchor:start;vector-effect:non-scaling-stroke;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.00070004;stroke-miterlimit:4;stroke-dasharray:none;-inkscape-stroke:hairline"
        x="148.00473"
        y="33.543812"
        id="text845"><tspan
@@ -94,22 +99,22 @@
          x="148.00473"
          y="33.543812"
          id="tspan843"
-         style="stroke-width:0.00070004;stroke:none;vector-effect:non-scaling-stroke;-inkscape-stroke:hairline;stroke-miterlimit:4;stroke-dasharray:none"><tspan
+         style="vector-effect:non-scaling-stroke;stroke:none;stroke-width:0.00070004;stroke-miterlimit:4;stroke-dasharray:none;-inkscape-stroke:hairline"><tspan
            dx="0"
            dy="0"
-           style="font-style:normal;font-variant:normal;font-weight:400;font-size:3.50573px;font-family:Consolas;fill:#000000;stroke-width:0.00070004;stroke:none;vector-effect:non-scaling-stroke;-inkscape-stroke:hairline;stroke-miterlimit:4;stroke-dasharray:none"
+           style="font-style:normal;font-variant:normal;font-weight:400;font-size:3.50573px;font-family:Consolas;vector-effect:non-scaling-stroke;fill:#000000;stroke:none;stroke-width:0.00070004;stroke-miterlimit:4;stroke-dasharray:none;-inkscape-stroke:hairline"
            id="tspan841">TTS Engine</tspan></tspan></text>
     <path
-       style="fill:#eeeeee;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.00070004;vector-effect:non-scaling-stroke;-inkscape-stroke:hairline;stroke-miterlimit:4;stroke-dasharray:none"
+       style="vector-effect:non-scaling-stroke;fill:#eeeeee;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.00070004;stroke-miterlimit:4;stroke-dasharray:none;-inkscape-stroke:hairline"
        d="m 141.84856,60.416164 h 31.08919 v 6.146229 h -31.08919 z"
        id="path847" />
     <path
-       style="fill:none;stroke:#000000;stroke-width:0.00002631;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;vector-effect:non-scaling-stroke;-inkscape-stroke:hairline"
+       style="vector-effect:non-scaling-stroke;fill:none;stroke:#000000;stroke-width:2.631e-05;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;-inkscape-stroke:hairline"
        d="m 141.84856,60.416164 h 31.08919 v 6.146229 h -31.08919 v -6.146229 0"
        id="path849" />
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:400;font-size:3.50573px;line-height:125%;font-family:Consolas;text-align:start;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.00070004;vector-effect:non-scaling-stroke;-inkscape-stroke:hairline;stroke-miterlimit:4;stroke-dasharray:none"
+       style="font-style:normal;font-variant:normal;font-weight:400;font-size:3.50573px;line-height:125%;font-family:Consolas;text-align:start;letter-spacing:0px;word-spacing:0px;text-anchor:start;vector-effect:non-scaling-stroke;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.00070004;stroke-miterlimit:4;stroke-dasharray:none;-inkscape-stroke:hairline"
        x="144.85207"
        y="64.632996"
        id="text855"><tspan
@@ -117,22 +122,22 @@
          x="144.85207"
          y="64.632996"
          id="tspan853"
-         style="stroke-width:0.00070004;stroke:none;vector-effect:non-scaling-stroke;-inkscape-stroke:hairline;stroke-miterlimit:4;stroke-dasharray:none"><tspan
+         style="vector-effect:non-scaling-stroke;stroke:none;stroke-width:0.00070004;stroke-miterlimit:4;stroke-dasharray:none;-inkscape-stroke:hairline"><tspan
            dx="0"
            dy="0"
-           style="font-style:normal;font-variant:normal;font-weight:400;font-size:3.50573px;font-family:Consolas;fill:#000000;stroke-width:0.00070004;stroke:none;vector-effect:non-scaling-stroke;-inkscape-stroke:hairline;stroke-miterlimit:4;stroke-dasharray:none"
+           style="font-style:normal;font-variant:normal;font-weight:400;font-size:3.50573px;font-family:Consolas;vector-effect:non-scaling-stroke;fill:#000000;stroke:none;stroke-width:0.00070004;stroke-miterlimit:4;stroke-dasharray:none;-inkscape-stroke:hairline"
            id="tspan851">Servo Control</tspan></tspan></text>
     <path
-       style="fill:#eeeeee;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.00070004;vector-effect:non-scaling-stroke;-inkscape-stroke:hairline;stroke-miterlimit:4;stroke-dasharray:none"
+       style="vector-effect:non-scaling-stroke;fill:#eeeeee;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.00070004;stroke-miterlimit:4;stroke-dasharray:none;-inkscape-stroke:hairline"
        d="m 141.84856,75.224798 h 31.08919 v 6.156178 h -31.08919 z"
        id="path857" />
     <path
-       style="fill:none;stroke:#000000;stroke-width:0.00002631;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;vector-effect:non-scaling-stroke;-inkscape-stroke:hairline"
+       style="vector-effect:non-scaling-stroke;fill:none;stroke:#000000;stroke-width:2.631e-05;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;-inkscape-stroke:hairline"
        d="m 141.84856,75.224798 h 31.08919 v 6.156178 h -31.08919 v -6.156178 0"
        id="path859" />
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:400;font-size:3.50573px;line-height:125%;font-family:Consolas;text-align:start;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.00070004;vector-effect:non-scaling-stroke;-inkscape-stroke:hairline;stroke-miterlimit:4;stroke-dasharray:none"
+       style="font-style:normal;font-variant:normal;font-weight:400;font-size:3.50573px;line-height:125%;font-family:Consolas;text-align:start;letter-spacing:0px;word-spacing:0px;text-anchor:start;vector-effect:non-scaling-stroke;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.00070004;stroke-miterlimit:4;stroke-dasharray:none;-inkscape-stroke:hairline"
        x="146.78146"
        y="79.451576"
        id="text865"><tspan
@@ -140,22 +145,22 @@
          x="146.78146"
          y="79.451576"
          id="tspan863"
-         style="stroke-width:0.00070004;stroke:none;vector-effect:non-scaling-stroke;-inkscape-stroke:hairline;stroke-miterlimit:4;stroke-dasharray:none"><tspan
+         style="vector-effect:non-scaling-stroke;stroke:none;stroke-width:0.00070004;stroke-miterlimit:4;stroke-dasharray:none;-inkscape-stroke:hairline"><tspan
            dx="0"
            dy="0"
-           style="font-style:normal;font-variant:normal;font-weight:400;font-size:3.50573px;font-family:Consolas;fill:#000000;stroke-width:0.00070004;stroke:none;vector-effect:non-scaling-stroke;-inkscape-stroke:hairline;stroke-miterlimit:4;stroke-dasharray:none"
+           style="font-style:normal;font-variant:normal;font-weight:400;font-size:3.50573px;font-family:Consolas;vector-effect:non-scaling-stroke;fill:#000000;stroke:none;stroke-width:0.00070004;stroke-miterlimit:4;stroke-dasharray:none;-inkscape-stroke:hairline"
            id="tspan861">LED Control</tspan></tspan></text>
     <path
-       style="fill:#eeeeee;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.00070004;vector-effect:non-scaling-stroke;-inkscape-stroke:hairline;stroke-miterlimit:4;stroke-dasharray:none"
+       style="vector-effect:non-scaling-stroke;fill:#eeeeee;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.00070004;stroke-miterlimit:4;stroke-dasharray:none;-inkscape-stroke:hairline"
        d="m 141.82867,44.354414 h 31.12897 v 6.156174 h -31.12897 z"
        id="path867" />
     <path
-       style="fill:none;stroke:#000000;stroke-width:0.00002631;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;vector-effect:non-scaling-stroke;-inkscape-stroke:hairline"
+       style="vector-effect:non-scaling-stroke;fill:none;stroke:#000000;stroke-width:2.631e-05;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;-inkscape-stroke:hairline"
        d="m 141.82867,44.354414 h 31.12897 v 6.156174 h -31.12897 v -6.156174 0"
        id="path869" />
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:400;font-size:3.50573px;line-height:125%;font-family:Consolas;text-align:start;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.00070004;vector-effect:non-scaling-stroke;-inkscape-stroke:hairline;stroke-miterlimit:4;stroke-dasharray:none"
+       style="font-style:normal;font-variant:normal;font-weight:400;font-size:3.50573px;line-height:125%;font-family:Consolas;text-align:start;letter-spacing:0px;word-spacing:0px;text-anchor:start;vector-effect:non-scaling-stroke;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.00070004;stroke-miterlimit:4;stroke-dasharray:none;-inkscape-stroke:hairline"
        x="145.81676"
        y="48.581192"
        id="text875"><tspan
@@ -163,22 +168,22 @@
          x="145.81676"
          y="48.581192"
          id="tspan873"
-         style="stroke-width:0.00070004;stroke:none;vector-effect:non-scaling-stroke;-inkscape-stroke:hairline;stroke-miterlimit:4;stroke-dasharray:none"><tspan
+         style="vector-effect:non-scaling-stroke;stroke:none;stroke-width:0.00070004;stroke-miterlimit:4;stroke-dasharray:none;-inkscape-stroke:hairline"><tspan
            dx="0"
            dy="0"
-           style="font-style:normal;font-variant:normal;font-weight:400;font-size:3.50573px;font-family:Consolas;fill:#000000;stroke-width:0.00070004;stroke:none;vector-effect:non-scaling-stroke;-inkscape-stroke:hairline;stroke-miterlimit:4;stroke-dasharray:none"
+           style="font-style:normal;font-variant:normal;font-weight:400;font-size:3.50573px;font-family:Consolas;vector-effect:non-scaling-stroke;fill:#000000;stroke:none;stroke-width:0.00070004;stroke-miterlimit:4;stroke-dasharray:none;-inkscape-stroke:hairline"
            id="tspan871">Audio Player</tspan></tspan></text>
     <path
-       style="fill:#cfe7f5;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.00070004;vector-effect:non-scaling-stroke;-inkscape-stroke:hairline;stroke-miterlimit:4;stroke-dasharray:none"
+       style="vector-effect:non-scaling-stroke;fill:#cfe7f5;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.00070004;stroke-miterlimit:4;stroke-dasharray:none;-inkscape-stroke:hairline"
        d="m 102.455,30.997799 h 25.1717 v -3.381421 l 8.40383,6.792678 -8.40383,6.782732 v -3.40131 H 102.455 Z"
        id="path877" />
     <path
-       style="fill:none;stroke:#000000;stroke-width:0.00002631;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;vector-effect:non-scaling-stroke;-inkscape-stroke:hairline"
+       style="vector-effect:non-scaling-stroke;fill:none;stroke:#000000;stroke-width:2.631e-05;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;-inkscape-stroke:hairline"
        d="m 102.455,30.997799 h 25.1717 v -3.381421 l 8.40383,6.792678 -8.40383,6.782732 v -3.40131 H 102.455 v -6.792679"
        id="path879" />
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:400;font-size:3.50573px;line-height:125%;font-family:Consolas;text-align:start;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.00070004;vector-effect:non-scaling-stroke;-inkscape-stroke:hairline;stroke-miterlimit:4;stroke-dasharray:none"
+       style="font-style:normal;font-variant:normal;font-weight:400;font-size:3.50573px;line-height:125%;font-family:Consolas;text-align:start;letter-spacing:0px;word-spacing:0px;text-anchor:start;vector-effect:non-scaling-stroke;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.00070004;stroke-miterlimit:4;stroke-dasharray:none;-inkscape-stroke:hairline"
        x="105.55796"
        y="35.542828"
        id="text885"><tspan
@@ -186,22 +191,22 @@
          x="105.55796"
          y="35.542828"
          id="tspan883"
-         style="stroke-width:0.00070004;stroke:none;vector-effect:non-scaling-stroke;-inkscape-stroke:hairline;stroke-miterlimit:4;stroke-dasharray:none"><tspan
+         style="vector-effect:non-scaling-stroke;stroke:none;stroke-width:0.00070004;stroke-miterlimit:4;stroke-dasharray:none;-inkscape-stroke:hairline"><tspan
            dx="0"
            dy="0"
-           style="font-style:normal;font-variant:normal;font-weight:400;font-size:3.50573px;font-family:Consolas;fill:#000000;stroke-width:0.00070004;stroke:none;vector-effect:non-scaling-stroke;-inkscape-stroke:hairline;stroke-miterlimit:4;stroke-dasharray:none"
+           style="font-style:normal;font-variant:normal;font-weight:400;font-size:3.50573px;font-family:Consolas;vector-effect:non-scaling-stroke;fill:#000000;stroke:none;stroke-width:0.00070004;stroke-miterlimit:4;stroke-dasharray:none;-inkscape-stroke:hairline"
            id="tspan881">API Commands</tspan></tspan></text>
     <path
-       style="fill:#cfe7f5;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.00070004;vector-effect:non-scaling-stroke;-inkscape-stroke:hairline;stroke-miterlimit:4;stroke-dasharray:none"
+       style="vector-effect:non-scaling-stroke;fill:#cfe7f5;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.00070004;stroke-miterlimit:4;stroke-dasharray:none;-inkscape-stroke:hairline"
        d="m 136.03053,52.380316 h -25.19159 v -3.570383 l -8.38394,7.1706 8.38394,7.180549 v -3.60022 h 25.19159 z"
        id="path887" />
     <path
-       style="fill:none;stroke:#000000;stroke-width:0.00002631;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;vector-effect:non-scaling-stroke;-inkscape-stroke:hairline"
+       style="vector-effect:non-scaling-stroke;fill:none;stroke:#000000;stroke-width:2.631e-05;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;-inkscape-stroke:hairline"
        d="m 136.03053,52.380316 h -25.19159 v -3.570383 l -8.38394,7.1706 8.38394,7.180549 v -3.60022 h 25.19159 v -7.180546"
        id="path889" />
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:400;font-size:3.50573px;line-height:125%;font-family:Consolas;text-align:start;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.00070004;vector-effect:non-scaling-stroke;-inkscape-stroke:hairline;stroke-miterlimit:4;stroke-dasharray:none"
+       style="font-style:normal;font-variant:normal;font-weight:400;font-size:3.50573px;line-height:125%;font-family:Consolas;text-align:start;letter-spacing:0px;word-spacing:0px;text-anchor:start;vector-effect:non-scaling-stroke;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.00070004;stroke-miterlimit:4;stroke-dasharray:none;-inkscape-stroke:hairline"
        x="115.55304"
        y="57.124252"
        id="text895"><tspan
@@ -209,22 +214,22 @@
          x="115.55304"
          y="57.124252"
          id="tspan893"
-         style="stroke-width:0.00070004;stroke:none;vector-effect:non-scaling-stroke;-inkscape-stroke:hairline;stroke-miterlimit:4;stroke-dasharray:none"><tspan
+         style="vector-effect:non-scaling-stroke;stroke:none;stroke-width:0.00070004;stroke-miterlimit:4;stroke-dasharray:none;-inkscape-stroke:hairline"><tspan
            dx="0"
            dy="0"
-           style="font-style:normal;font-variant:normal;font-weight:400;font-size:3.50573px;font-family:Consolas;fill:#000000;stroke-width:0.00070004;stroke:none;vector-effect:non-scaling-stroke;-inkscape-stroke:hairline;stroke-miterlimit:4;stroke-dasharray:none"
+           style="font-style:normal;font-variant:normal;font-weight:400;font-size:3.50573px;font-family:Consolas;vector-effect:non-scaling-stroke;fill:#000000;stroke:none;stroke-width:0.00070004;stroke-miterlimit:4;stroke-dasharray:none;-inkscape-stroke:hairline"
            id="tspan891">Events</tspan></tspan></text>
     <path
-       style="fill:#cfe7f5;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.00070004;vector-effect:non-scaling-stroke;-inkscape-stroke:hairline;stroke-miterlimit:4;stroke-dasharray:none"
+       style="vector-effect:non-scaling-stroke;fill:#cfe7f5;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.00070004;stroke-miterlimit:4;stroke-dasharray:none;-inkscape-stroke:hairline"
        d="m 136.03053,69.178021 h -25.19159 v -3.580325 l -8.38394,7.1706 8.38394,7.19049 v -3.590271 h 25.19159 z"
        id="path897" />
     <path
-       style="fill:none;stroke:#000000;stroke-width:0.00002631;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;vector-effect:non-scaling-stroke;-inkscape-stroke:hairline"
+       style="vector-effect:non-scaling-stroke;fill:none;stroke:#000000;stroke-width:2.631e-05;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;-inkscape-stroke:hairline"
        d="m 136.03053,69.178021 h -25.19159 v -3.580325 l -8.38394,7.1706 8.38394,7.19049 v -3.590271 h 25.19159 v -7.190494"
        id="path899" />
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:400;font-size:3.50573px;line-height:125%;font-family:Consolas;text-align:start;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.00070004;vector-effect:non-scaling-stroke;-inkscape-stroke:hairline;stroke-miterlimit:4;stroke-dasharray:none"
+       style="font-style:normal;font-variant:normal;font-weight:400;font-size:3.50573px;line-height:125%;font-family:Consolas;text-align:start;letter-spacing:0px;word-spacing:0px;text-anchor:start;vector-effect:non-scaling-stroke;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.00070004;stroke-miterlimit:4;stroke-dasharray:none;-inkscape-stroke:hairline"
        x="110.72955"
        y="73.9319"
        id="text905"><tspan
@@ -232,22 +237,22 @@
          x="110.72955"
          y="73.9319"
          id="tspan903"
-         style="stroke-width:0.00070004;stroke:none;vector-effect:non-scaling-stroke;-inkscape-stroke:hairline;stroke-miterlimit:4;stroke-dasharray:none"><tspan
+         style="vector-effect:non-scaling-stroke;stroke:none;stroke-width:0.00070004;stroke-miterlimit:4;stroke-dasharray:none;-inkscape-stroke:hairline"><tspan
            dx="0"
            dy="0"
-           style="font-style:normal;font-variant:normal;font-weight:400;font-size:3.50573px;font-family:Consolas;fill:#000000;stroke-width:0.00070004;stroke:none;vector-effect:non-scaling-stroke;-inkscape-stroke:hairline;stroke-miterlimit:4;stroke-dasharray:none"
+           style="font-style:normal;font-variant:normal;font-weight:400;font-size:3.50573px;font-family:Consolas;vector-effect:non-scaling-stroke;fill:#000000;stroke:none;stroke-width:0.00070004;stroke-miterlimit:4;stroke-dasharray:none;-inkscape-stroke:hairline"
            id="tspan901">Sensor Data</tspan></tspan></text>
     <path
-       style="fill:#cfe7f5;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.00070004;vector-effect:non-scaling-stroke;-inkscape-stroke:hairline;stroke-miterlimit:4;stroke-dasharray:none"
+       style="vector-effect:non-scaling-stroke;fill:#cfe7f5;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.00070004;stroke-miterlimit:4;stroke-dasharray:none;-inkscape-stroke:hairline"
        d="m 25.985158,30.997799 h 25.171697 v -3.381421 l 8.403825,6.792678 -8.403825,6.782732 v -3.40131 H 25.985158 Z"
        id="path907" />
     <path
-       style="fill:none;stroke:#000000;stroke-width:0.00002631;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;vector-effect:non-scaling-stroke;-inkscape-stroke:hairline"
+       style="vector-effect:non-scaling-stroke;fill:none;stroke:#000000;stroke-width:2.631e-05;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;-inkscape-stroke:hairline"
        d="m 25.985158,30.997799 h 25.171697 v -3.381421 l 8.403825,6.792678 -8.403825,6.782732 v -3.40131 H 25.985158 v -6.792679"
        id="path909" />
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:400;font-size:3.50573px;line-height:125%;font-family:Consolas;text-align:start;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.00070004;vector-effect:non-scaling-stroke;-inkscape-stroke:hairline;stroke-miterlimit:4;stroke-dasharray:none"
+       style="font-style:normal;font-variant:normal;font-weight:400;font-size:3.50573px;line-height:125%;font-family:Consolas;text-align:start;letter-spacing:0px;word-spacing:0px;text-anchor:start;vector-effect:non-scaling-stroke;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.00070004;stroke-miterlimit:4;stroke-dasharray:none;-inkscape-stroke:hairline"
        x="27.15871"
        y="35.542828"
        id="text915"><tspan
@@ -255,22 +260,22 @@
          x="27.15871"
          y="35.542828"
          id="tspan913"
-         style="stroke-width:0.00070004;stroke:none;vector-effect:non-scaling-stroke;-inkscape-stroke:hairline;stroke-miterlimit:4;stroke-dasharray:none"><tspan
+         style="vector-effect:non-scaling-stroke;stroke:none;stroke-width:0.00070004;stroke-miterlimit:4;stroke-dasharray:none;-inkscape-stroke:hairline"><tspan
            dx="0"
            dy="0"
-           style="font-style:normal;font-variant:normal;font-weight:400;font-size:3.50573px;font-family:Consolas;fill:#000000;stroke-width:0.00070004;stroke:none;vector-effect:non-scaling-stroke;-inkscape-stroke:hairline;stroke-miterlimit:4;stroke-dasharray:none"
+           style="font-style:normal;font-variant:normal;font-weight:400;font-size:3.50573px;font-family:Consolas;vector-effect:non-scaling-stroke;fill:#000000;stroke:none;stroke-width:0.00070004;stroke-miterlimit:4;stroke-dasharray:none;-inkscape-stroke:hairline"
            id="tspan911">CommandMessage</tspan></tspan></text>
     <path
-       style="fill:#cfe7f5;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.00070004;vector-effect:non-scaling-stroke;-inkscape-stroke:hairline;stroke-miterlimit:4;stroke-dasharray:none"
+       style="vector-effect:non-scaling-stroke;fill:#cfe7f5;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.00070004;stroke-miterlimit:4;stroke-dasharray:none;-inkscape-stroke:hairline"
        d="M 59.56068,60.555399 H 34.369094 v -3.570383 l -8.383936,7.150711 8.383936,7.180548 V 67.716056 H 59.56068 Z"
        id="path917" />
     <path
-       style="fill:none;stroke:#000000;stroke-width:0.00002631;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;vector-effect:non-scaling-stroke;-inkscape-stroke:hairline"
+       style="vector-effect:non-scaling-stroke;fill:none;stroke:#000000;stroke-width:2.631e-05;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;-inkscape-stroke:hairline"
        d="M 59.56068,60.555399 H 34.369094 v -3.570383 l -8.383936,7.150711 8.383936,7.180548 V 67.716056 H 59.56068 v -7.160657"
        id="path919" />
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:400;font-size:3.50573px;line-height:125%;font-family:Consolas;text-align:start;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.00070004;vector-effect:non-scaling-stroke;-inkscape-stroke:hairline;stroke-miterlimit:4;stroke-dasharray:none"
+       style="font-style:normal;font-variant:normal;font-weight:400;font-size:3.50573px;line-height:125%;font-family:Consolas;text-align:start;letter-spacing:0px;word-spacing:0px;text-anchor:start;vector-effect:non-scaling-stroke;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.00070004;stroke-miterlimit:4;stroke-dasharray:none;-inkscape-stroke:hairline"
        x="32.330296"
        y="65.299332"
        id="text925"><tspan
@@ -278,22 +283,22 @@
          x="32.330296"
          y="65.299332"
          id="tspan923"
-         style="stroke-width:0.00070004;stroke:none;vector-effect:non-scaling-stroke;-inkscape-stroke:hairline;stroke-miterlimit:4;stroke-dasharray:none"><tspan
+         style="vector-effect:non-scaling-stroke;stroke:none;stroke-width:0.00070004;stroke-miterlimit:4;stroke-dasharray:none;-inkscape-stroke:hairline"><tspan
            dx="0"
            dy="0"
-           style="font-style:normal;font-variant:normal;font-weight:400;font-size:3.50573px;font-family:Consolas;fill:#000000;stroke-width:0.00070004;stroke:none;vector-effect:non-scaling-stroke;-inkscape-stroke:hairline;stroke-miterlimit:4;stroke-dasharray:none"
+           style="font-style:normal;font-variant:normal;font-weight:400;font-size:3.50573px;font-family:Consolas;vector-effect:non-scaling-stroke;fill:#000000;stroke:none;stroke-width:0.00070004;stroke-miterlimit:4;stroke-dasharray:none;-inkscape-stroke:hairline"
            id="tspan921">StatusMessage</tspan></tspan></text>
     <path
-       style="fill:#cccccc;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.00070004;vector-effect:non-scaling-stroke;-inkscape-stroke:hairline;stroke-miterlimit:4;stroke-dasharray:none"
+       style="vector-effect:non-scaling-stroke;fill:#cccccc;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.00070004;stroke-miterlimit:4;stroke-dasharray:none;-inkscape-stroke:hairline"
        d="M 59.540791,13.583479 H 102.48484 V 87.537156 H 59.540791 Z"
        id="path927" />
     <path
-       style="fill:none;stroke:#000000;stroke-width:0.00002631;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;vector-effect:non-scaling-stroke;-inkscape-stroke:hairline"
+       style="vector-effect:non-scaling-stroke;fill:none;stroke:#000000;stroke-width:2.631e-05;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;-inkscape-stroke:hairline"
        d="M 59.540791,13.583479 H 102.48484 V 87.537156 H 59.540791 v -73.953677 0"
        id="path929" />
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:400;font-size:4.20026px;line-height:125%;font-family:Consolas;text-align:start;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.00070004;vector-effect:non-scaling-stroke;-inkscape-stroke:hairline;stroke-miterlimit:4;stroke-dasharray:none"
+       style="font-style:normal;font-variant:normal;font-weight:400;font-size:4.20026px;line-height:125%;font-family:Consolas;text-align:start;letter-spacing:0px;word-spacing:0px;text-anchor:start;vector-effect:non-scaling-stroke;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.00070004;stroke-miterlimit:4;stroke-dasharray:none;-inkscape-stroke:hairline"
        x="68.282761"
        y="22.355284"
        id="text935"><tspan
@@ -301,22 +306,22 @@
          x="68.282761"
          y="22.355284"
          id="tspan933"
-         style="stroke-width:0.00070004;stroke:none;vector-effect:non-scaling-stroke;-inkscape-stroke:hairline;stroke-miterlimit:4;stroke-dasharray:none"><tspan
+         style="vector-effect:non-scaling-stroke;stroke:none;stroke-width:0.00070004;stroke-miterlimit:4;stroke-dasharray:none;-inkscape-stroke:hairline"><tspan
            dx="0"
            dy="0"
-           style="font-style:normal;font-variant:normal;font-weight:400;font-size:4.20026px;font-family:Consolas;fill:#000000;stroke-width:0.00070004;stroke:none;vector-effect:non-scaling-stroke;-inkscape-stroke:hairline;stroke-miterlimit:4;stroke-dasharray:none"
+           style="font-style:normal;font-variant:normal;font-weight:400;font-size:4.20026px;font-family:Consolas;vector-effect:non-scaling-stroke;fill:#000000;stroke:none;stroke-width:0.00070004;stroke-miterlimit:4;stroke-dasharray:none;-inkscape-stroke:hairline"
            id="tspan931">RobotEngine</tspan></tspan></text>
     <path
-       style="fill:#eeeeee;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.00070004;vector-effect:non-scaling-stroke;-inkscape-stroke:hairline;stroke-miterlimit:4;stroke-dasharray:none"
+       style="vector-effect:non-scaling-stroke;fill:#eeeeee;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.00070004;stroke-miterlimit:4;stroke-dasharray:none;-inkscape-stroke:hairline"
        d="m 65.189754,31.127089 h 31.089185 v 6.136285 H 65.189754 Z"
        id="path937" />
     <path
-       style="fill:none;stroke:#000000;stroke-width:0.00002631;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;vector-effect:non-scaling-stroke;-inkscape-stroke:hairline"
+       style="vector-effect:non-scaling-stroke;fill:none;stroke:#000000;stroke-width:2.631e-05;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;-inkscape-stroke:hairline"
        d="m 65.189754,31.127089 h 31.089185 v 6.136285 H 65.189754 v -6.136285 0"
        id="path939" />
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:400;font-size:3.50573px;line-height:125%;font-family:Consolas;text-align:start;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.00070004;vector-effect:non-scaling-stroke;-inkscape-stroke:hairline;stroke-miterlimit:4;stroke-dasharray:none"
+       style="font-style:normal;font-variant:normal;font-weight:400;font-size:3.50573px;line-height:125%;font-family:Consolas;text-align:start;letter-spacing:0px;word-spacing:0px;text-anchor:start;vector-effect:non-scaling-stroke;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.00070004;stroke-miterlimit:4;stroke-dasharray:none;-inkscape-stroke:hairline"
        x="68.193253"
        y="35.333977"
        id="text945"><tspan
@@ -324,22 +329,22 @@
          x="68.193253"
          y="35.333977"
          id="tspan943"
-         style="stroke-width:0.00070004;stroke:none;vector-effect:non-scaling-stroke;-inkscape-stroke:hairline;stroke-miterlimit:4;stroke-dasharray:none"><tspan
+         style="vector-effect:non-scaling-stroke;stroke:none;stroke-width:0.00070004;stroke-miterlimit:4;stroke-dasharray:none;-inkscape-stroke:hairline"><tspan
            dx="0"
            dy="0"
-           style="font-style:normal;font-variant:normal;font-weight:400;font-size:3.50573px;font-family:Consolas;fill:#000000;stroke-width:0.00070004;stroke:none;vector-effect:non-scaling-stroke;-inkscape-stroke:hairline;stroke-miterlimit:4;stroke-dasharray:none"
+           style="font-style:normal;font-variant:normal;font-weight:400;font-size:3.50573px;font-family:Consolas;vector-effect:non-scaling-stroke;fill:#000000;stroke:none;stroke-width:0.00070004;stroke-miterlimit:4;stroke-dasharray:none;-inkscape-stroke:hairline"
            id="tspan941">TTS Scheduler</tspan></tspan></text>
     <path
-       style="fill:#eeeeee;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.00070004;vector-effect:non-scaling-stroke;-inkscape-stroke:hairline;stroke-miterlimit:4;stroke-dasharray:none"
+       style="vector-effect:non-scaling-stroke;fill:#eeeeee;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.00070004;stroke-miterlimit:4;stroke-dasharray:none;-inkscape-stroke:hairline"
        d="m 65.169863,47.894959 h 31.089184 v 9.328746 H 65.169863 Z"
        id="path947" />
     <path
-       style="fill:none;stroke:#000000;stroke-width:0.00002631;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;vector-effect:non-scaling-stroke;-inkscape-stroke:hairline"
+       style="vector-effect:non-scaling-stroke;fill:none;stroke:#000000;stroke-width:2.631e-05;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;-inkscape-stroke:hairline"
        d="m 65.169863,47.894959 h 31.089184 v 9.328746 H 65.169863 v -9.328746 0"
        id="path949" />
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:400;font-size:3.50573px;line-height:117.731%;font-family:Consolas;text-align:start;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.00070004;vector-effect:non-scaling-stroke;-inkscape-stroke:hairline;stroke-miterlimit:4;stroke-dasharray:none"
+       style="font-style:normal;font-variant:normal;font-weight:400;font-size:3.50573px;line-height:117.731%;font-family:Consolas;text-align:start;letter-spacing:0px;word-spacing:0px;text-anchor:start;vector-effect:non-scaling-stroke;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.00070004;stroke-miterlimit:4;stroke-dasharray:none;-inkscape-stroke:hairline"
        x="72.032158"
        y="51.644356"
        id="text959"><tspan
@@ -347,31 +352,31 @@
          x="72.032158"
          y="51.644356"
          id="tspan953"
-         style="stroke-width:0.00070004;stroke:none;vector-effect:non-scaling-stroke;-inkscape-stroke:hairline;stroke-miterlimit:4;stroke-dasharray:none"><tspan
+         style="vector-effect:non-scaling-stroke;stroke:none;stroke-width:0.00070004;stroke-miterlimit:4;stroke-dasharray:none;-inkscape-stroke:hairline"><tspan
            dx="0"
            dy="0"
-           style="font-style:normal;font-variant:normal;font-weight:400;font-size:3.50573px;font-family:Consolas;fill:#000000;stroke-width:0.00070004;stroke:none;vector-effect:non-scaling-stroke;-inkscape-stroke:hairline;stroke-miterlimit:4;stroke-dasharray:none"
+           style="font-style:normal;font-variant:normal;font-weight:400;font-size:3.50573px;font-family:Consolas;vector-effect:non-scaling-stroke;fill:#000000;stroke:none;stroke-width:0.00070004;stroke-miterlimit:4;stroke-dasharray:none;-inkscape-stroke:hairline"
            id="tspan951">Animation</tspan></tspan><tspan
          sodipodi:role="line"
          x="72.032158"
-         y="55.77169"
+         y="55.771687"
          id="tspan957"
-         style="stroke-width:0.00070004;stroke:none;vector-effect:non-scaling-stroke;-inkscape-stroke:hairline;stroke-miterlimit:4;stroke-dasharray:none"><tspan
+         style="vector-effect:non-scaling-stroke;stroke:none;stroke-width:0.00070004;stroke-miterlimit:4;stroke-dasharray:none;-inkscape-stroke:hairline"><tspan
            dx="0"
            dy="0"
-           style="font-style:normal;font-variant:normal;font-weight:400;font-size:3.50573px;font-family:Consolas;fill:#000000;stroke-width:0.00070004;stroke:none;vector-effect:non-scaling-stroke;-inkscape-stroke:hairline;stroke-miterlimit:4;stroke-dasharray:none"
+           style="font-style:normal;font-variant:normal;font-weight:400;font-size:3.50573px;font-family:Consolas;vector-effect:non-scaling-stroke;fill:#000000;stroke:none;stroke-width:0.00070004;stroke-miterlimit:4;stroke-dasharray:none;-inkscape-stroke:hairline"
            id="tspan955">Scheduler</tspan></tspan></text>
     <path
-       style="fill:#eeeeee;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.00070004;vector-effect:non-scaling-stroke;-inkscape-stroke:hairline;stroke-miterlimit:4;stroke-dasharray:none"
+       style="vector-effect:non-scaling-stroke;fill:#eeeeee;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.00070004;stroke-miterlimit:4;stroke-dasharray:none;-inkscape-stroke:hairline"
        d="m 64.911283,68.312776 h 31.158802 v 9.29891 H 64.911283 Z"
        id="path961" />
     <path
-       style="fill:none;stroke:#000000;stroke-width:0.00002631;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;vector-effect:non-scaling-stroke;-inkscape-stroke:hairline"
+       style="vector-effect:non-scaling-stroke;fill:none;stroke:#000000;stroke-width:2.631e-05;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;-inkscape-stroke:hairline"
        d="m 64.911283,68.312776 h 31.158802 v 9.29891 H 64.911283 v -9.29891 0"
        id="path963" />
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:400;font-size:3.50573px;line-height:117.447%;font-family:Consolas;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.00070004;vector-effect:non-scaling-stroke;-inkscape-stroke:hairline;stroke-miterlimit:4;stroke-dasharray:none"
+       style="font-style:normal;font-variant:normal;font-weight:400;font-size:3.50573px;line-height:117.447%;font-family:Consolas;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;vector-effect:non-scaling-stroke;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.00070004;stroke-miterlimit:4;stroke-dasharray:none;-inkscape-stroke:hairline"
        x="80.478943"
        y="72.052231"
        id="text973"><tspan
@@ -379,19 +384,19 @@
          x="80.478943"
          y="72.052231"
          id="tspan967"
-         style="stroke-width:0.00070004;stroke:none;vector-effect:non-scaling-stroke;-inkscape-stroke:hairline;stroke-miterlimit:4;stroke-dasharray:none"><tspan
+         style="vector-effect:non-scaling-stroke;stroke:none;stroke-width:0.00070004;stroke-miterlimit:4;stroke-dasharray:none;-inkscape-stroke:hairline"><tspan
            dx="0"
            dy="0"
-           style="font-style:normal;font-variant:normal;font-weight:400;font-size:3.50573px;font-family:Consolas;fill:#000000;stroke-width:0.00070004;stroke:none;vector-effect:non-scaling-stroke;-inkscape-stroke:hairline;stroke-miterlimit:4;stroke-dasharray:none"
+           style="font-style:normal;font-variant:normal;font-weight:400;font-size:3.50573px;font-family:Consolas;vector-effect:non-scaling-stroke;fill:#000000;stroke:none;stroke-width:0.00070004;stroke-miterlimit:4;stroke-dasharray:none;-inkscape-stroke:hairline"
            id="tspan965">Inverse</tspan></tspan><tspan
          sodipodi:role="line"
          x="80.478943"
          y="76.169609"
          id="tspan971"
-         style="stroke-width:0.00070004;stroke:none;vector-effect:non-scaling-stroke;-inkscape-stroke:hairline;stroke-miterlimit:4;stroke-dasharray:none"><tspan
+         style="vector-effect:non-scaling-stroke;stroke:none;stroke-width:0.00070004;stroke-miterlimit:4;stroke-dasharray:none;-inkscape-stroke:hairline"><tspan
            dx="0"
            dy="0"
-           style="font-style:normal;font-variant:normal;font-weight:400;font-size:3.50573px;font-family:Consolas;fill:#000000;stroke-width:0.00070004;stroke:none;vector-effect:non-scaling-stroke;-inkscape-stroke:hairline;stroke-miterlimit:4;stroke-dasharray:none"
+           style="font-style:normal;font-variant:normal;font-weight:400;font-size:3.50573px;font-family:Consolas;vector-effect:non-scaling-stroke;fill:#000000;stroke:none;stroke-width:0.00070004;stroke-miterlimit:4;stroke-dasharray:none;-inkscape-stroke:hairline"
            id="tspan969">Kinematics</tspan></tspan></text>
   </g>
 </svg>
